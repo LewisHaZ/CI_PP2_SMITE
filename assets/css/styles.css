@@ -34,13 +34,51 @@ h2{
     color: var(--tinted-gold);
 }
 
+h3{
+    font-weight: 400;
+    color: var(--tinted-gold);
+}
+
 p{
     font-size: 2em;
+    color: var(--tinted-gold);
+    
 }
 
 .footer{
     color: #d4af37;
     margin-bottom: 3em;
+}
+
+.scores{
+    font-size: 1.5em;
+    padding: 1em 0 2em;
+}
+
+.rating > li{
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.turns-count{
+    padding: 0.5em;
+}
+
+.reset-btn{
+    background-color: var(--tinted-gold);
+}
+
+.timer-container{
+    background: #fff;
+	border-radius: 0.5em;
+	color: #000;
+	margin: 0.5em;
+	padding: 0.5em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.timer{
+    font-size: 2em;
 }
 
 .footer > p{
