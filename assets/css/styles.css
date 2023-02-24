@@ -1,6 +1,11 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
+
+:root{
+    --tinted-gold: #d4af37;
+}
+
 /* Global Style */
 *{
     margin: 0;
@@ -9,7 +14,10 @@
 
 body{
     font-family:'Tilt Prism', sans-serif, cursive;
+    background-color: #000;
+    text-align: center;
 }
+
 html{
     box-sizing: border-box;
 }
@@ -17,11 +25,13 @@ html{
 h1{
     font-size: 4em;
     font-weight: 300;
+    color: var(--tinted-gold);
 }
 
 h2{
     font-size: 3em;
     font-weight: 200;
+    color: var(--tinted-gold);
 }
 
 .container{
