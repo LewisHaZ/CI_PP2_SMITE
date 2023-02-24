@@ -34,10 +34,28 @@ h2{
     color: var(--tinted-gold);
 }
 
+p{
+    font-size: 2em;
+}
+
+.footer{
+    color: #d4af37;
+    margin-bottom: 3em;
+}
+
+.footer > p{
+    font-size: 1em;
+    padding: 1em;
+}
+
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 0.9em;
+}
+
+ul > li{
+    list-style: none;
 }
