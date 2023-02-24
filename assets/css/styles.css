@@ -1,0 +1,33 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+/* Global Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Tilt Prism', sans-serif, cursive;
+}
+html{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 200;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.9em;
+}
