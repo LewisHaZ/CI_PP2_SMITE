@@ -60,6 +60,11 @@ p{
     padding: 0.5em;
 }
 
+.fa-crown{
+    color: var(--tinted-gold);
+    font-size: 4em;
+}
+
 .turns-count{
     padding: 0.5em;
 }
