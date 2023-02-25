@@ -231,3 +231,36 @@ p.stats:last-child{
     height: 7em;
     width: 7em;
 }
+
+img{
+    user-select: none;
+    width: 6em;
+}
+
+.deck img{
+    visibility: hidden;
+}
+
+.deck .card.flip{
+    background: #000;
+    cursor: default;
+    transform: rotateY(180deg);
+    transition: transform 0.3s linear;
+    pointer-events: none;
+}
+
+.flip img{
+    background: #000;
+    visibility: visible;
+}
+
+.deck .card.match{
+    background: var(--tinted-gold);
+    visibility: visible;
+    cursor: default;
+    animation: pulse 1s;
+}
+
+.match img{
+    background: var(--tinted-gold);
+}
