@@ -179,10 +179,20 @@ ul > li{
     width: 20em;
 }
 
+p.stats{
+    font-weight: 600;
+}
+
+p.stats:last-child{
+    margin-bottom: 1em;
+}
+
 .play-again-btn{
     background: #fff;
     margin-bottom: 1em;
 }
+
+
 
 .close{
     align-self: flex-end;
