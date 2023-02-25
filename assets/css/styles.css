@@ -12,6 +12,12 @@
     padding: 0;
 }
 
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
 body{
     font-family:'Tilt Prism', sans-serif, cursive;
     background-color: #000;
@@ -176,4 +182,17 @@ ul > li{
 .play-again-btn{
     background: #fff;
     margin-bottom: 1em;
+}
+
+.close{
+    align-self: flex-end;
+    color: #fff;
+    font-size: 5em;
+}
+
+.close:hover,
+.close:focus{
+    color: var(--tinted-gold);
+    text-decoration: none;
+    cursor: pointer;
 }
