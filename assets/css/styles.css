@@ -139,3 +139,41 @@ ul > li{
 .timer{
     font-size: 2em;
 }
+
+/* modal */
+.modal{
+    /* hidden by default */
+    display: none;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 8, 17);
+    background-color: rgba(6, 8, 17, 0.6);
+}
+
+/* model box */
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    margin: 5% auto;
+    border: 0.8em solid #d4af37;
+    padding-right: 2em;
+    width: 70%;
+}
+
+.modal-img{
+    display: inline-block;
+    margin: 1em 0 1em;
+    width: 20em;
+}
+
+.play-again-btn{
+    background: #fff;
+    margin-bottom: 1em;
+}
