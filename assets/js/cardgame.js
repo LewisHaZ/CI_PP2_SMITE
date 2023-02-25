@@ -48,7 +48,7 @@ const deckOfCards = ["ah-puch.png", "ah-puch.png", "anhur.png", "anhur.png",
         liTag.classList.add('card');
         const addImage = document.createElement('IMG');
         liTag.appendChild(addImage);
-        addImage.setAttribute('src', 'https://github.com/LewisHaZ/CI_PP2_SMITE/tree/main/assets/images' + shuffledDeck[i]);
+        addImage.setAttribute('src', 'https://lewishaz.github.io/CI_PP2_SMITE/assets/images/' + shuffledDeck[i]);
         addImage.setAttribute('alt', 'image of king arthur from smite');
         cards.appendChild(liTag);
     }
