@@ -264,3 +264,85 @@ img{
 .match img{
     background: var(--tinted-gold);
 }
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* media queries */
+/* mobile/tablet */
+@media screen and (min-width: 550px) {
+    .cards{
+        height: 50em;
+        padding: 2em;
+        width: 50em;
+    }
+    .card{
+        height: 10em;
+        width: 10em;
+    }
+    .cards img{
+        width: 9em;
+    }
+
+    .modal-content h2{
+        font-size: 4em;
+    }
+
+    .play-again-btn{
+        font-size: 1.8em;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 800px) {
+    
+    h1{
+        font-size: 6em;
+    }
+
+    p{
+        font-size: 2.3em;
+    }
+
+    .cards{
+        height: 70em;
+        width: 70em;
+    }
+
+    .card{
+        height: 15em;
+        width: 15em;
+    }
+
+    .cards img{
+        width: 13em;
+    }
+
+    .reset-btn{
+        font-size: 0.8em;
+    }
+
+    .footer{
+        font-size: 1.2em;
+    }
+    .modal-content h2 {
+        font-size: 5em;
+    }
+
+    .modal-img{
+        width: 30em;
+    }
+
+    .play-again-btn{
+        font-size: 2em;
+    }
+}
