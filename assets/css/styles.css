@@ -50,8 +50,8 @@ p{
     margin-bottom: 3em;
 }
 
-.scores{
-    font-size: 1.5em;
+.score-count{
+    font-size: 1.4em;
     padding: 1em 0 2em;
 }
 
@@ -62,7 +62,7 @@ p{
 
 .fa-crown{
     color: var(--tinted-gold);
-    font-size: 4em;
+    font-size: 2em;
 }
 
 .turns-count{
