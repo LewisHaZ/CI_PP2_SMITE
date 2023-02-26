@@ -94,6 +94,10 @@ h3{
     color: var(--tinted-gold);
 }
 
+.turns-color{
+    color: var(--tinted-gold);
+}
+
 .reset-btn{
     background-color: var(--tinted-gold);
 }
