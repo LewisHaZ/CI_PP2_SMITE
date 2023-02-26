@@ -166,7 +166,7 @@ p.stats:last-child{
 }
 
 .play-again-btn{
-    background: #fff;
+    background: #000;
     margin-bottom: 1em;
 }
 
@@ -200,11 +200,11 @@ img{
     width: 6em;
 }
 
-.deck img{
+.cards img{
     visibility: hidden;
 }
 
-.deck .card.flip{
+.cards .card.flip{
     background: #000;
     cursor: default;
     transform: rotateY(180deg);
@@ -217,7 +217,7 @@ img{
     visibility: visible;
 }
 
-.deck .card.match{
+.cards .card.match{
     background: var(--tinted-gold);
     visibility: visible;
     cursor: default;

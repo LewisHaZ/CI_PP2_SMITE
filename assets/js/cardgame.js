@@ -6,21 +6,29 @@ const deckOfCards = ["ah-puch.png", "ah-puch.png", "anhur.png", "anhur.png",
  "kali.png", "medusa.png", "medusa.png", "mercury.png", "mercury.png", "ra.png",
   "ra.png"];
 
-  const cards = document.querySelector('.cards');
+  // Access the ul class 'cards'
+  const cards = document.querySelector(".cards");
+  // Create empty array to store the 'turned' cards
   let turned = [];
+  // Create empty array to store the 'matched' cards
   let matched = [];
-  const modal = document.getElementById('modal');
-  const reset = document.querySelector('.reset-btn');
-  const playAgain = document.querySelector('.play-again-btn');
-  const turnsCount = document.querySelector('.turns-counter');
+  // Access the modal (popup window)
+  const modal = document.getElementById("modal");
+  // Get the reset button
+  const reset = document.querySelector(".reset-btn");
+  // Access the play again button
+  const playAgain = document.querySelector(".play-again-btn");
+  // Get the turns counter class
+  const turnsCount = document.querySelector(".turns-counter");
 
+  // Create variable for turns counter, start it at zero
   let turns = 0;
 
-  const crown = document.getElementById('rating').querySelectorAll('.crown');
+  const crown = document.getElementById("rating").querySelectorAll(".crown");
 
   let ratingCount = 3;
 
-  const timeCounter = document.querySelector('.timer');
+  const timeCounter = document.querySelector(".timer");
 
   let time = 0;
   let minutes = 0;
@@ -46,10 +54,10 @@ const deckOfCards = ["ah-puch.png", "ah-puch.png", "anhur.png", "anhur.png",
     for(let i = 0; i < shuffledDeck.length; i++){
         const liTag = document.createElement('LI');
         liTag.classList.add('card');
-        const addImage = document.createElement('IMG');
+        const addImage = document.createElement("IMG");
         liTag.appendChild(addImage);
-        addImage.setAttribute('src', 'https://lewishaz.github.io/CI_PP2_SMITE/assets/images/' + shuffledDeck[i]);
-        addImage.setAttribute('alt', 'image of king arthur from smite');
+        addImage.setAttribute("src",  "https://lewishaz.github.io/CI_PP2_SMITE/assets/images/" + shuffledDeck[i]);
+        addImage.setAttribute("alt", "image of king arthur from smite");
         cards.appendChild(liTag);
     }
   }
@@ -68,8 +76,8 @@ const deckOfCards = ["ah-puch.png", "ah-puch.png", "anhur.png", "anhur.png",
             minutes ++;
             seconds = 0;
         }
-        timeCounter.innerHTML = '<i class="fa-solid fa-hourglass-half"></i>' + 
-        'Time elapsed: ' + minutes + ' Mins' + seconds + ' Secs';
+        timeCounter.innerHTML = "<i class='fa-solid fa-hourglass-half'></i>" + 
+        "Time elapsed: " + minutes + " Mins" + seconds + " Secs";
     }, 1000);
   }
 
@@ -81,8 +89,8 @@ const deckOfCards = ["ah-puch.png", "ah-puch.png", "anhur.png", "anhur.png",
     timeStart = false;
     seconds = 0;
     minutes = 0;
-    timeCounter.innerHTML = '<i class="fa-solid fa-hourglass-half"></i>' + 
-    'Time elapsed: 00:00';
+    timeCounter.innerHTML = "<i class='fa-solid fa-hourglass-half'></i>" + 
+    "Time elapsed: 00:00";
   
 
   crown[1].firstElementChild.classList.add("fa-crown");
@@ -114,10 +122,10 @@ const deckOfCards = ["ah-puch.png", "ah-puch.png", "anhur.png", "anhur.png",
 
   function compareTurnedCards(){
     if(turned.length === 2){
-        document.body.style.pointerEvents = 'none';
+        document.body.style.pointerEvents = "none";
     }
 
-    if(turned.length === 2 && turned[0].src != turned[1].src){
+    if(turned.length === 2 && turned[0].src === turned[1].src){
         match();
     } else if (turned.length === 2 && turned[0].src != turned[1].src){
         noMatch();
@@ -128,8 +136,8 @@ const deckOfCards = ["ah-puch.png", "ah-puch.png", "anhur.png", "anhur.png",
     setTimeout(function(){
         turned[0].parentElement.classList.add("match");
         turned[1].parentElement.classList.add("match");
-        match.push(...turned);
-        document.body.style.pointerEvents = 'auto';
+        matched.push(...turned);
+        document.body.style.pointerEvents = "auto";
         winGame();
         turned = [];
     }, 600);
@@ -141,7 +149,7 @@ const deckOfCards = ["ah-puch.png", "ah-puch.png", "anhur.png", "anhur.png",
     setTimeout(function(){
         turned[0].parentElement.classList.remove("flip");
         turned[1].parentElement.classList.remove("flip");
-        document.body.style.pointerEvents = 'auto';
+        document.body.style.pointerEvents = "auto";
         turned = [];
     }, 700);
     turnsCounter();
@@ -149,28 +157,28 @@ const deckOfCards = ["ah-puch.png", "ah-puch.png", "anhur.png", "anhur.png",
 }
 
 function AddStats(){
-    const stats = document.querySelector('.modal-content');
+    const stats = document.querySelector(".modal-content");
     for(let i = 1; i<= 3; i++){
-        const statsElement = document.createElement('p');
-        statsElement.classList.add('stats');
+        const statsElement = document.createElement("p");
+        statsElement.classList.add("stats");
         stats.appendChild(statsElement);
     }
 
     let p = stats.querySelectorAll('p.stats');
-    p[0].innerHTML = 'Time to complete: ' + minutes + "Minutes and" + seconds + " seconds";
-    p[1].innerHTML = 'Turns taken: ' + turns;
-    p[2].innerHTML = 'Your Crown Rating is: ' + ratingCount + 'out of 3';
+    p[0].innerHTML = "Time to complete: " + minutes + "Minutes and" + seconds + " seconds";
+    p[1].innerHTML = "Turns taken: " + turns;
+    p[2].innerHTML = "Your Crown Rating is: " + ratingCount + "out of 3";
 }
 
 function displayModal(){
-    const modalClose = document.getElementsByClassName('close')[0];
-    modal.style.display = 'block';
+    const modalClose = document.getElementsByClassName("close")[0];
+    modal.style.display = "block";
     modalClose.onclick = function(){
-        modal.style.display = 'none';
+        modal.style.display = "none";
     };
     window.onclick = function(event){
         if(event.target === modal){
-            modal.style.display = 'none';
+            modal.style.display = "none";
         }
     };
 }
@@ -183,8 +191,8 @@ function winGame(){
     }
 }
 
-cards.addEventListener('click', function(evt){
-    if(evt.target.nodeName === 'LI'){
+cards.addEventListener("click", function(evt){
+    if(evt.target.nodeName === "LI"){
         console.log(evt.target.nodeName + 'was clicked');
 
         if(timeStart === false){
@@ -194,7 +202,7 @@ cards.addEventListener('click', function(evt){
         flipCard();
     }
     function flipCard(){
-        evt.target.classList.add('flip');
+        evt.target.classList.add("flip");
         addToTurned();
     }
     function addToTurned(){
@@ -206,7 +214,7 @@ cards.addEventListener('click', function(evt){
 });
 
 reset.addEventListener('click', resetEverything);
-playAgain.addEventListener('click', function(){
+playAgain.addEventListener('click',function(){
     modal.style.display = 'none';
     resetEverything();
 });
