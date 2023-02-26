@@ -35,7 +35,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 0.9em;
+    margin-top: 0.5em;
 }
 
 ul > li{
@@ -50,32 +50,31 @@ ul > li{
 
 .btn {
     border-radius: 1em;
-    border: #fff;
+    border: none;
     color: #fff;
     box-shadow: 5px 2px 20px 0 rgba(255, 255, 255, 0.5);
     padding: 0.8em;
 }
 
 h1{
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 300;
     color: var(--tinted-gold);
 }
 
 h2{
-    font-size: 3em;
-    font-weight: 200;
+    font-size: 2em;
+    font-weight: 600;
     color: var(--tinted-gold);
 }
 
 p{
-    font-size: 2em;
+    font-size: 1.6em;
     color: var(--tinted-gold);
     
 }
 
 h3{
-    font-size: 2em;
     font-weight: 400;
     color: var(--tinted-gold);
 }
@@ -92,6 +91,7 @@ h3{
 
 .turns-count{
     padding: 0.5em;
+    color: var(--tinted-gold);
 }
 
 .reset-btn{
@@ -135,7 +135,7 @@ h3{
     margin: 5% auto;
     border: 0.8em solid #d4af37;
     padding-right: 2em;
-    width: 70%;
+    width: 80%;
 }
 
 .close{
@@ -157,11 +157,11 @@ h3{
     width: 20em;
 }
 
-p.stats{
+p.stats {
     font-weight: 600;
 }
 
-p.stats:last-child{
+p.stats:last-child {
     margin-bottom: 1em;
 }
 
@@ -184,18 +184,18 @@ p.stats:last-child{
 }
 
 .cards,
-.card{
+.card {
     box-shadow: 5px 2px 20px 0 rgba(6, 8, 17, 0.6);
 }
 
-.card{
+.card {
     background: var(--tinted-gold);
     border-radius: 0.5em;
     height: 7em;
     width: 7em;
 }
 
-img{
+img {
     user-select: none;
     width: 6em;
     margin-top: 2em;
@@ -230,13 +230,13 @@ img{
 }
 
 @keyframes pulse{
-    0%{
+    0% {
         transform: scale(1);
     }
-    80%{
+    80% {
         transform: scale(1.1);
     }
-    100%{
+    100% {
         transform: scale(1);
     }
 }
@@ -244,6 +244,17 @@ img{
 .footer{
     color: #d4af37;
     margin-bottom: 3em;
+}
+
+.footer > p {
+    font-size: 1em;
+    padding: 1em;
+}
+
+.footer a:link,
+.footer a:visited{
+    color: #fff;
+    text-decoration: underline;
 }
 
 /* media queries */
@@ -319,11 +330,6 @@ img{
 .fa-crown{
     color: var(--tinted-gold);
     font-size: 2em;
-}
-
-.footer > p{
-    font-size: 1em;
-    padding: 1em;
 }
 
 

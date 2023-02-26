@@ -158,13 +158,13 @@ const deckOfCards = ["ah-puch.png", "ah-puch.png", "anhur.png", "anhur.png",
 
 function AddStats(){
     const stats = document.querySelector(".modal-content");
-    for(let i = 1; i<= 3; i++){
+    for(let i = 1; i <= 3; i++){
         const statsElement = document.createElement("p");
         statsElement.classList.add("stats");
         stats.appendChild(statsElement);
     }
 
-    let p = stats.querySelectorAll('p.stats');
+    let p = stats.querySelectorAll("p.stats");
     p[0].innerHTML = "Time to complete: " + minutes + "Minutes and" + seconds + " seconds";
     p[1].innerHTML = "Turns taken: " + turns;
     p[2].innerHTML = "Your Crown Rating is: " + ratingCount + "out of 3";
@@ -215,7 +215,7 @@ cards.addEventListener("click", function(evt){
 
 reset.addEventListener('click', resetEverything);
 playAgain.addEventListener('click',function(){
-    modal.style.display = 'none';
+    modal.style.display = "none";
     resetEverything();
 });
 
