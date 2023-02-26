@@ -198,6 +198,7 @@ p.stats:last-child{
 img{
     user-select: none;
     width: 6em;
+    margin-top: 2em;
 }
 
 .cards img{
