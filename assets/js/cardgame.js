@@ -19,7 +19,7 @@ const deckOfCards = ["ah-puch.png", "ah-puch.png", "anhur.png", "anhur.png",
   // Access the play again button
   const playAgain = document.querySelector(".play-again-btn");
   // Get the turns counter class
-  const turnsCount = document.querySelector(".turns-counter");
+  const turnsCount = document.querySelector(".turns-count");
 
   // Create variable for turns counter, start it at zero
   let turns = 0;
