@@ -267,26 +267,30 @@ img {
 
 /* media queries */
 /* mobile/tablet */
-@media screen and (min-width: 550px) {
+@media screen and (max-width: 568px) {
     .cards{
-        height: 50em;
-        padding: 2em;
-        width: 50em;
+        height: 40em;
+        padding: 1em;
+        width: 22em;
     }
     .card{
-        height: 10em;
-        width: 10em;
+        height: 5em;
+        width: 5em;
     }
     .cards img{
-        width: 9em;
-    }
+        width: 4em;
+        margin-top: 1em;
 
+    }
+    .modal-img{
+        font-size: 0.5em;
+    }
     .modal-content h2{
-        font-size: 4em;
+        font-size: 1em;
     }
 
     .play-again-btn{
-        font-size: 1.8em;
+        font-size: 0.5em;
     }
 }
 
