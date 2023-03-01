@@ -82,6 +82,19 @@ ul > li{
     cursor: pointer;
     border: 3px solid var(--tinted-gold);
     background-color: var(--tinted-gold);
+    box-shadow: 0 4px 0 0 #736a2b;
+    transition: var(--transition);
+}
+
+.quiz-questions li:hover{
+    background-color: #444531;
+    color:rgb(6, 8, 17);
+    border-color: #444531;
+    box-shadow: 0 4px 0 0 #bbb;
+}
+
+.quiz-questions li:active{
+    transform: scale(0.97);
 }
 
 
