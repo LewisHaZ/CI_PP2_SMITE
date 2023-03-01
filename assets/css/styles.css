@@ -94,10 +94,60 @@ ul > li{
 }
 
 .quiz-questions li:active{
-    transform: scale(0.97);
+    transform: scale(0.87);
 }
 
+.selected{
+    background-color: #444531!important;
+    color: rgb(6, 8, 17)!important;
+    border-color: #444531!important;
+    box-shadow: 0 4px 0 0 #bbb!important; 
+}
 
+.quiz-footer button{
+    border: none;
+    border-radius: 0.5rem;
+    outline: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    color: var(--tinted-gold);
+    letter-spacing: 2px;
+    transition: var(--transition);
+    box-shadow: 0 4px 0 0 #bbb;
+}
+
+.quiz-footer button:hover{
+    background-color: slategray;
+    box-shadow: 0 4px 0 0 #bbb;
+}
+.quiz-footer button:active{
+    transform: scale(0.95);
+}
+
+#play-again{
+    display: none;
+}
+
+@media(max-width: 678px){
+    .quiz-title{
+        font-size: 1.6rem;
+    }
+    .content{
+        margin: 3rem 0;
+        width: 90%;
+        padding: 1.5rem 1rem 3rem 1rem;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .quiz-footer button{
+        font-size: 1rem;
+    }
+}
 /* buttons */
 .card,
 .reset-btn{
