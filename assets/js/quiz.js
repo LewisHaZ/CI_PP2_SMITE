@@ -8,6 +8,7 @@ const _totalQuestion = document.getElementById('total-question');
 let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 10;
 
 document.addEventListener('DOMContentLoaded', () =>{
+    loadQuestion();
     _totalQuestion.textContent = totalQuestion;
     _correctScore.textContent = correctScore;
 });
@@ -20,6 +21,7 @@ async function loadQuestion(){
     showQuestion(data.results[0])
 }
 
+// load the questions and their options
 function showQuestion(data){
     lcorrectAnswer = data.correct_answer;
     let incorrectAnswer = data.incorrect_answers;
@@ -31,6 +33,19 @@ function showQuestion(data){
     question.innerHTML = `${data.question} <br> <span class ="category">${data.category}</span>`;
     options.innerHTML = `${optionsList.map((option, index) => `
         <li>  ${index + 1}. <span> ${option}</span></li>`).join('')}`;
+
+        selectOption();
 }
 
-loadQuestion();
+// options selector
+function selectOption(){
+    options.querySelectorAll('li').forEach((option) =>
+        option.addEventListener('click', () =>{
+            if(options.querySelector('.selected')){
+                const activeOption = options.querySelector('.selected');
+                activeOption.classList.remove('selected');
+            }
+            option.classList.add('selected');
+        }))
+}
+
