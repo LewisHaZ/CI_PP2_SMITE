@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mythology Quiz</title>
+    <link rel="stylesheet" href="assets/css/styles.css"/>
 </head>
 <body>
-    
+    <div class="content">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <h1 class="quiz-title">Mythology Quiz Game</h1>
+                <div class="quiz-score flex">
+                    <span id = "correct-score">0</span>/<span
+                     id = "total-question"></span>
+                </div>
+            </div>
+
+            <div class="quiz-body">
+                <h2 class="quiz-question" id = "question">Who is 
+                    the God of Wine?</h2>
+                    <ul class="quiz-questions">
+                        <li>1. Bacchus</li>
+                        <li>1. Bacchus</li>
+                        <li>1. Bacchus</li>
+                        <li>1. Bacchus</li>
+                    </ul>
+                    <div class="result">
+
+                    </div>
+            </div>
+            <div class="quiz-footer">
+                <button type = "button" id = "reveal-answer">Reveal Answer</button>
+                <button type = "button" id = "play-again">Play Again!</button>
+            </div>
+        </div>
+    </div>
+<!-- font awesome script -->
+<script src="https://kit.fontawesome.com/3f6d600d14.js" crossorigin="anonymous"></script>
+<!-- Quiz Javascript -->
+<script src="assets/js/quiz.js"></script>
 </body>
 </html>
