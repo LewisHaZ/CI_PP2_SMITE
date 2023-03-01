@@ -4,11 +4,18 @@ const question = document.getElementById('question');
 const options = document.querySelector('.quiz-questions');
 const _correctScore = document.getElementById('correct-score');
 const _totalQuestion = document.getElementById('total-question');
+const checkBtn = document.getElementById('check-answer');
+const playAgainBtn = document.getElementById('play-again');
 
 let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 10;
 
+//event listeners
+function eventListeners(){
+    checkBtn.addEventListener('click', checkAnswer);
+}
 document.addEventListener('DOMContentLoaded', () =>{
     loadQuestion();
+    eventListeners();
     _totalQuestion.textContent = totalQuestion;
     _correctScore.textContent = correctScore;
 });
@@ -49,3 +56,6 @@ function selectOption(){
         }))
 }
 
+function checkAnswer(){
+    checkBtn.disabled = true;
+}
