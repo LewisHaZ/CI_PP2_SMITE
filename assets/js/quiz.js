@@ -1,4 +1,4 @@
-// https://opentdb.com/api.php?amount=10&category=20&difficulty=medium&type=multiple
+// https://opentdb.com/api.php?amount=10&category=20
 
 const _question = document.getElementById('question');
 const _options = document.querySelector('.quiz-questions');
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () =>{
 });
 
 async function loadQuestion(){
-    const APIUrl = 'https://opentdb.com/api.php?amount=10&category=20&difficulty=medium&type=multiple';
+    const APIUrl = 'https://opentdb.com/api.php?amount=10&category=20';
     const result = await fetch(`${APIUrl}`);
     const data = await result.json();
     //console.log(data.results[0]);
@@ -100,7 +100,7 @@ function checkCount(){
     } else {
         setTimeout(() => {
             loadQuestion();
-        }, 300);
+        }, 1000);
     }
 }
 
