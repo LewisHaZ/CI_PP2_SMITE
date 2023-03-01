@@ -58,6 +58,33 @@ ul > li{
     font-size: 3em;
 }
 
+.quiz-question .category{
+    font-size: 0.5em;
+    font-weight: 500;
+    background-color: var(--tinted-gold);
+    color: black;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+.quiz-questions{
+    list-style-type: none;
+    margin: 1rem 0;
+}
+
+.quiz-questions li{
+    border-radius: 0.5rem;
+    font-weight: 600;
+    margin: 0.7rem 0;
+    padding: 0.4rem, 1.2rem;
+    cursor: pointer;
+    border: 3px solid var(--tinted-gold);
+    background-color: var(--tinted-gold);
+}
+
+
 /* buttons */
 .card,
 .reset-btn{
