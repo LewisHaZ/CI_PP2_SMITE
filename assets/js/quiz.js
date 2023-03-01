@@ -2,8 +2,15 @@
 
 const question = document.getElementById('question');
 const options = document.querySelector('.quiz-questions');
+const _correctScore = document.getElementById('correct-score');
+const _totalQuestion = document.getElementById('total-question');
 
 let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 10;
+
+document.addEventListener('DOMContentLoaded', () =>{
+    _totalQuestion.textContent = totalQuestion;
+    _correctScore.textContent = correctScore;
+});
 
 async function loadQuestion(){
     const APIUrl = 'https://opentdb.com/api.php?amount=10&category=20&difficulty=medium&type=multiple';
