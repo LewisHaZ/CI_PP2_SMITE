@@ -13,6 +13,7 @@ let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 10;
 //event listeners
 function eventListeners(){
     _checkBtn.addEventListener('click', checkAnswer);
+    _playAgainBtn.addEventListener('click', restartQuiz);
 }
 
 document.addEventListener('DOMContentLoaded', () =>{
@@ -76,6 +77,10 @@ function checkAnswer(){
              <p> <small><b>Correct Answer: </b> ${correctAnswer}</small></p>`;
         }
         checkCount();
+    } else {
+        _result.innerHTML = `<p><i class = "fas fa-question"></i> Please
+        select an option!</p>`;
+        _checkBtn.disabled = false;
     }
 }
 
@@ -102,4 +107,13 @@ function checkCount(){
 function setCount(){
     _totalQuestion.textContent = totalQuestion;
     _correctScore.textContent = correctScore;
+}
+
+function restartQuiz(){
+    correctScore = askedCount = 0;
+    _playAgainBtn.style.display = "none";
+    _checkBtn.style.display = "block";
+    _checkBtn.disabled = false;
+    setCount();
+    loadQuestion();
 }
