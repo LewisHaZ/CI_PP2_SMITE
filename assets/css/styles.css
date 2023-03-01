@@ -70,6 +70,7 @@ h2{
 
 .smite-logo{
     font-size: 2em;
+    margin-bottom: 1em;
 }
 
 p{
@@ -268,29 +269,48 @@ img {
 /* media queries */
 /* mobile/tablet */
 @media screen and (max-width: 568px) {
+    .header{
+        font-size: 0.75em;
+    }
+    .score-count{
+        font-size: 0.5em;
+    }
+    .crown{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        font-size: 2em;
+    }
     .cards{
-        height: 40em;
-        padding: 1em;
-        width: 22em;
+        height: 30em;
+        width: 20em;
     }
     .card{
-        height: 5em;
-        width: 5em;
+        height: 4em;
+        width: 4em;
     }
     .cards img{
         width: 4em;
-        margin-top: 1em;
+        margin-top: 0.5em;
 
     }
-    .modal-img{
-        font-size: 0.5em;
+    .close{
+        font-size: 2em;
     }
-    .modal-content h2{
+    .modal-img{
+        height: 10em;
+        width: 5em;
+    }
+        
+    .modal-content > h2{
         font-size: 1em;
     }
 
     .play-again-btn{
-        font-size: 0.5em;
+        font-size: 1.5em;
     }
 }
 
