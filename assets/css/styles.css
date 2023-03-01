@@ -42,6 +42,12 @@ ul > li{
     list-style: none;
 }
 
+/* fix for text being disabled */
+.quiz-questions > li{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
 /* buttons */
 .card,
 .reset-btn{
