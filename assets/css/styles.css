@@ -48,6 +48,16 @@ ul > li{
     font-family:'Times New Roman', Times, serif;
 }
 
+.quiz-score{
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.quiz-question{
+    font-size: 3em;
+}
+
 /* buttons */
 .card,
 .reset-btn{
