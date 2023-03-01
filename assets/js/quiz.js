@@ -2,6 +2,9 @@
 
 const question = document.getElementById('question');
 const options = document.querySelector('.quiz-questions');
+
+let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 10;
+
 async function loadQuestion(){
     const APIUrl = 'https://opentdb.com/api.php?amount=10&category=20&difficulty=medium&type=multiple';
     const result = await fetch(`${APIUrl}`);
@@ -11,7 +14,7 @@ async function loadQuestion(){
 }
 
 function showQuestion(data){
-    let correctAnswer = data.correct_answer;
+    lcorrectAnswer = data.correct_answer;
     let incorrectAnswer = data.incorrect_answers;
     let optionsList = incorrectAnswer;
     // inserting correct answer in a random position in the options list
