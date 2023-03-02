@@ -129,8 +129,14 @@ ul > li{
     transform: scale(0.95);
 }
 
-#play-again{
+#play-again {
     display: none;
+}
+
+#go-to-form{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
 }
 
 #result{

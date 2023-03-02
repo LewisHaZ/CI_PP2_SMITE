@@ -117,3 +117,4 @@ function restartQuiz(){
     setCount();
     loadQuestion();
 }
+
