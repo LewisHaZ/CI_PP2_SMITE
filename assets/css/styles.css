@@ -32,11 +32,29 @@ body{
 
 .container{
     display: flex;
+    list-style: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 0.5em;
 }
+
+.sticky{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #000;
+}
+
+.nav{
+    border-radius: 3em;
+    font-size: 2em;
+    display: inline-block;
+    padding: 20px;
+    background-color: var(--tinted-gold);
+}
+
+
 
 ul > li{
     list-style: none;
