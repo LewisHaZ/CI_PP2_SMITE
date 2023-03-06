@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMITE - Contact Form</title>
     <link rel="stylesheet" href="assets/css/styles.css"/>
+    <script src="assets/js/email.js"></script>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+            emailjs.init("GPc8_VJR-pWRi0sVt");
+        })();
+</script>
+
 </head>
 <body>
     <header class="header">
@@ -20,17 +30,17 @@
         <h2>Also, thank you for playing the games!</h2>
         <form id="thank-you">
             <div>
-                <label for="name" class="form-label">Enter your name</label>
-                <input type="text" name="name" id="name" class="form-control" required>
+                <label for="name" class="form-label">Name</label>
+                <input type="text" placeholder="Your Name" name="name" id="fullName" required>
                 <label for="email" class="form-label">Email Address</label>
-                <input type="email" name="email" id="email" class="form-control" required>
+                <input type="email" placeholder="Email Address" name="email" id="emailAddress" required>
             </div>
             <div>
                 <!--https://www.deviantart.com/getsukeii/art/SMITE-All-Gods-Wallpaper-with-Fafnir-613035902-->
                 <img class="smite-all" src="assets/images/smite-all-gods.jpg" alt="PICTURE OF ALL SMITE CHARACTERS"> 
             </div>
             <div>
-                <textarea id="message" cols="30" rows="10" required></textarea>
+                <textarea placeholder="Your Message" id="message" cols="30" rows="10" required></textarea>
                 <button onclick="SendMail()">Send</button>
             </div>
 
@@ -47,16 +57,5 @@
             <a href="https://github.com/LewisHaZ/CI_PP2_SMITE" target="_blank" aria-label="The site's github repository"><i class="fa-brands fa-github"></i></a>
             <a href="https://uk.linkedin.com/in/lhazelwood" target="_blank" aria-label="My linkedin page"><i class="fa-brands fa-linkedin"></i></a>
         </div>
-        <script src="assets/js/email.js"></script>
-        <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-        </script>
-        <script type="text/javascript">
-            (function(){
-            emailjs.init("GPc8_VJR-pWRi0sVt");
-        })();
-</script>
-
-
 </body>
 </html>
