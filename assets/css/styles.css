@@ -38,12 +38,13 @@ body{
     flex-direction: column;
     margin-top: 0.5em;
 }
-
+/* Sticky navbar https://www.w3schools.com/Css/css_navbar_horizontal.asp */
 .sticky{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
     background-color: #000;
+    color: #fff;
 }
 
 .nav{
