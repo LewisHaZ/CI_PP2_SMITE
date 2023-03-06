@@ -285,10 +285,11 @@ h3{
     justify-content: center;
     align-items: center;
     background-color: #000;
-    margin: 5% auto;
+    margin: 0% auto;
     border: 0.8em solid #d4af37;
     padding-right: 2em;
     width: 80%;
+    margin-bottom: 10rem;
 }
 
 .close{
@@ -451,7 +452,7 @@ img {
         width: 5em;
     }
         
-    .modal-content > h2{
+    .mobile{
         font-size: 1em;
     }
 
@@ -469,6 +470,9 @@ img {
     }
     .quiz-questions{
         width: 15rem;
+    }
+    p.stats{
+        font-size: 1rem;
     }
 }
 
