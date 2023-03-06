@@ -55,8 +55,6 @@ body{
     background-color: var(--tinted-gold);
 }
 
-
-
 ul > li{
     list-style: none;
 }
@@ -81,7 +79,7 @@ ul > li{
     font-size: 0.5em;
     font-weight: 500;
     background-color: var(--tinted-gold);
-    color: black;
+    color: white;
     padding: 0.2rem 0.4rem;
     border-radius: 0.2rem;
     margin-top: 0.5rem;
@@ -90,15 +88,16 @@ ul > li{
 
 .quiz-questions{
     list-style-type: none;
-    margin: 1rem 0;
-    width: 20rem;
+    width: 30rem;
+    display: inline-block;
+    
 }
 
 .quiz-questions li{
     border-radius: 0.5rem;
     font-weight: 600;
+    padding: 0.2rem, 0.4rem;
     margin: 0.7rem 0;
-    text-align: center;
     cursor: pointer;
     border: 3px solid var(--tinted-gold);
     background-color: var(--tinted-gold);
