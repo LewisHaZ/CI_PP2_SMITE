@@ -458,6 +458,18 @@ img {
     .play-again-btn{
         font-size: 1.5em;
     }
+    .quiz-title{
+        font-size: 2.5rem;
+    }
+    .nav{
+        font-size: 1rem;
+    }
+    .quiz-question{
+        font-size: 1.2rem;
+    }
+    .quiz-questions{
+        width: 15rem;
+    }
 }
 
 /* desktop */
