@@ -413,6 +413,32 @@ img {
     text-decoration: underline;
 }
 
+#thank-you{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 200;
+    padding: 3rem 0;
+}
+
+.btn-success{
+    width: 40%;
+    padding: 2rem 2;
+    background-color: var(--tinted-gold);
+    font-weight: 1500;
+    font-family: 'Tilt Prism', Times, serif;
+    font-size: 3rem;
+}
+
+.btn-success:hover{
+    background-color: #736a2b;
+    transform: scale(1.2);
+    color: #fff;
+}
+
+.smite-all{
+    font-size: 10rem;
+}
+
 /* media queries */
 /* mobile/tablet */
 @media screen and (max-width: 568px) {
