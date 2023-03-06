@@ -91,13 +91,14 @@ ul > li{
 .quiz-questions{
     list-style-type: none;
     margin: 1rem 0;
+    width: 20rem;
 }
 
 .quiz-questions li{
     border-radius: 0.5rem;
     font-weight: 600;
     margin: 0.7rem 0;
-    padding: 0.4rem, 1.2rem;
+    text-align: center;
     cursor: pointer;
     border: 3px solid var(--tinted-gold);
     background-color: var(--tinted-gold);
