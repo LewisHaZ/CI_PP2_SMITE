@@ -1,22 +1,15 @@
-function sendMail(){
-    var params = {
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
-        message: document.getElementById("message").value,
+// Credit to Code with Voran for this code @ https://www.youtube.com/watch?v=x7Ewtay0Q78
+function sendMail(params){
+    var tempParams = {
+        from_name: document.getElementById("fromName").value,
+        to_name: document.getElementById("toName").value,
+        message: document.getElementById("msg").value,
     };
-const serviceID = "service_cqu9ojp";
-const templateID = "template_5hokv65";
 
 emailjs
-    .send(serviceID, templateID, params)
-    .then(
-        (res) =>{
-            document.getElementById("name").value = "";
-            document.getElementById("email").value = "";
-            document.getElementById("message").value = "";
-            console.log(res);
-            alert("Your message sent successfully");
-        }
-    )
-    .catch((err) => console.log(err));
+    .send('service_cqu9ojp', 'template_5hokv65',tempParams)
+    .then(function(res){
+        console.log("success", res.status);
+    })
 }
+        
