@@ -1,5 +1,7 @@
+// API for quiz content
 // https://opentdb.com/api.php?amount=10&category=20
 
+// Variables to be used for each feature
 const _question = document.getElementById('question');
 const _options = document.querySelector('.quiz-questions');
 const _correctScore = document.getElementById('correct-score');
@@ -16,6 +18,7 @@ function eventListeners(){
     _playAgainBtn.addEventListener('click', restartQuiz);
 }
 
+// Loads the DOM
 document.addEventListener('DOMContentLoaded', () =>{
     loadQuestion();
     eventListeners();
@@ -23,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     _correctScore.textContent = correctScore;
 });
 
+// Brings in the API for the questions using fetch
 async function loadQuestion(){
     const APIUrl = 'https://opentdb.com/api.php?amount=10&category=20';
     const result = await fetch(`${APIUrl}`);
@@ -65,6 +69,7 @@ function selectOption(){
     console.log(correctAnswer);
 }
 
+// Check answer function
 function checkAnswer(){
     _checkBtn.disabled = true;
     if(_options.querySelector('.selected')){
@@ -84,19 +89,24 @@ function checkAnswer(){
     }
 }
 
+// Code taken from https://developer.mozilla.org/en-US/docs/Web/API/DOMParser
 function HTMLDecode(textString){
     let doc = new DOMParser().parseFromString(textString, "text/html");
     return doc.documentElement.textContent;
 }
 
+// Checks the amount of questions answered in a function
 function checkCount(){
     askedCount++;
     setCount();
+    // when the question limit is reached
     if(askedCount == totalQuestion){
+        // display the score
         _result.innerHTML += `
         <p> Your score is ${correctScore}. </p>`;
         _playAgainBtn.style.display = "block";
         _checkBtn.style.display = "none";
+    // if not load next question
     } else {
         setTimeout(() => {
             loadQuestion();
@@ -104,11 +114,13 @@ function checkCount(){
     }
 }
 
+// Set the number for total questions and correct amonunt answered
 function setCount(){
     _totalQuestion.textContent = totalQuestion;
     _correctScore.textContent = correctScore;
 }
 
+// Set the values to their default and restart the quiz
 function restartQuiz(){
     correctScore = askedCount = 0;
     _playAgainBtn.style.display = "none";
