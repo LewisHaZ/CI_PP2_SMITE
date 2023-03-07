@@ -264,6 +264,12 @@ h3{
     font-size: 2em;
 }
 
+
+.back-to-start img {
+    width: 35%;
+    padding: 1rem 0;
+}
+
 /* modal */
 .modal{
     /* hidden by default */
