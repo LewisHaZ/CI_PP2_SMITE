@@ -7,15 +7,16 @@
     <title>SMITE - Contact Form</title>
     <link rel="stylesheet" href="assets/css/styles.css"/>
     <script src="assets/js/email.js"></script>
-        <script type="text/javascript"
+    <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-        </script>
-        <script type="text/javascript">
-            (function(){
-            emailjs.init("GPc8_VJR-pWRi0sVt");
-        })();
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("GPc8_VJR-pWRi0sVt");
+   })();
 </script>
 
+        
 </head>
 <body>
     <header class="header">
@@ -25,26 +26,38 @@
             <li class="nav"><a href="form.html">FORM</a></li>
         </ul>
     </header>
-    <p>Have any feedback you'd like to give us? Fill out our form below!</p>
     <div class="container">
+    <h1>Have any feedback you'd like to give us? Fill out our form below!</h1>
         <h2>Also, thank you for playing the games!</h2>
-        <form id="thank-you">
-            <div>
-                <label for="name" class="form-label">Name</label>
-                <input type="text" placeholder="Your Name" name="name" id="fullName" required>
-                <label for="email" class="form-label">Email Address</label>
-                <input type="email" placeholder="Email Address" name="email" id="emailAddress" required>
-            </div>
-            <div>
-                <!--https://www.deviantart.com/getsukeii/art/SMITE-All-Gods-Wallpaper-with-Fafnir-613035902-->
-                <img class="smite-all" src="assets/images/smite-all-gods.jpg" alt="PICTURE OF ALL SMITE CHARACTERS"> 
-            </div>
-            <div>
-                <textarea placeholder="Your Message" id="message" cols="30" rows="10" required></textarea>
-                <button onclick="SendMail()">Send</button>
-            </div>
 
-        </form>
+            <div class="form-group">
+                <h3 for="name">Name</h3>
+                <input
+                    type="text" 
+                    class="form-control" 
+                    id="name"
+                    placeholder="Enter your name here"
+                    /> 
+            </div>
+            <div class="form-group">
+                <h3 for="email">Email</h3>
+                <input
+                    type="email" 
+                    class="form-control" 
+                    id="email"
+                    placeholder="Enter your email here"
+                    /> 
+            </div>
+            <div class="form-group">
+                <h3 for="message">Message</h3>
+                <textarea id="message" rows="3" class="form-control"></textarea>
+            </div>
+            <button class="btn btn-primary" onclick="sendMail">Submit</button>
+            <div>
+                 <!--https://www.deviantart.com/getsukeii/art/SMITE-All-Gods-Wallpaper-with-Fafnir-613035902-->
+                 <img class="smite-all" src="assets/images/smite-all-gods.jpg" alt="PICTURE OF ALL SMITE CHARACTERS">
+            </div>
+        
     </div>
     <footer class="footer">
         <div>
@@ -57,5 +70,7 @@
             <a href="https://github.com/LewisHaZ/CI_PP2_SMITE" target="_blank" aria-label="The site's github repository"><i class="fa-brands fa-github"></i></a>
             <a href="https://uk.linkedin.com/in/lhazelwood" target="_blank" aria-label="My linkedin page"><i class="fa-brands fa-linkedin"></i></a>
         </div>
+        
+</script>
 </body>
 </html>

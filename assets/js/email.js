@@ -1,11 +1,22 @@
-// 
-function SendMail(){
+function sendMail(){
     var params = {
-        from_name : document.getElementById("fullName").value,
-        email_id : document.getElementById("emailAddress").value,
-        message : document.getElementById("message").value
-    }
-    emailjs.send("service_cqu9ojp", "template_5hokv65", params).then(function (res){
-        alert("Success!" + res.status);
-    })
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value,
+    };
+const serviceID = "service_cqu9ojp";
+const templateID = "template_5hokv65";
+
+emailjs
+    .send(serviceID, templateID, params)
+    .then(
+        (res) =>{
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+            console.log(res);
+            alert("Your message sent successfully");
+        }
+    )
+    .catch((err) => console.log(err));
 }
