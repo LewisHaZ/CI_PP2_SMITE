@@ -6,7 +6,7 @@
     --tinted-gold: #d4af37;
 }
 
-/* Global Style */
+/* Global Styles */
 *{
     margin: 0;
     padding: 0;
@@ -38,7 +38,8 @@ body{
     flex-direction: column;
     margin-top: 0.5em;
 }
-/* Sticky navbar https://www.w3schools.com/Css/css_navbar_horizontal.asp */
+
+/* Sticky navbar for Memory card page, credit to https://www.w3schools.com/Css/css_navbar_horizontal.asp */
 .sticky{
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -47,6 +48,7 @@ body{
     color: #fff;
 }
 
+/* nav bar buttons */
 .nav{
     border-radius: 3em;
     font-size: 2em;
@@ -55,6 +57,8 @@ body{
     background-color: var(--tinted-gold);
 }
 
+/** Quiz design elements **/
+/* stops bullet points or numbers being display in list items */
 ul > li{
     list-style: none;
 }
@@ -65,16 +69,19 @@ ul > li{
     font-family:'Times New Roman', Times, serif;
 }
 
+/* score elements */
 .quiz-score{
     color: white;
     font-weight: 600;
     font-size: 2em;
 }
 
+
 .quiz-question{
     font-size: 3em;
 }
 
+/* category and question styles */
 .quiz-question .category{
     font-size: 0.5em;
     font-weight: 500;
@@ -86,6 +93,7 @@ ul > li{
     display: inline-block;
 }
 
+/* question options, list type disabled so it doesn't show numbers or bullet points*/
 .quiz-questions{
     list-style-type: none;
     width: 30rem;
@@ -93,6 +101,7 @@ ul > li{
     
 }
 
+/* question options styles*/
 .quiz-questions li{
     border-radius: 0.5rem;
     font-weight: 600;
@@ -105,6 +114,7 @@ ul > li{
     transition: var(--transition);
 }
 
+/* hover effect on question options */
 .quiz-questions li:hover{
     background-color: #444531;
     color:rgb(6, 8, 17);
@@ -112,10 +122,12 @@ ul > li{
     box-shadow: 0 4px 0 0 #bbb;
 }
 
+/* scales down for interactiveness */
 .quiz-questions li:active{
     transform: scale(0.87);
 }
 
+/* if user click then the clicked option stays highlighted*/
 .selected{
     background-color: #444531!important;
     color: rgb(6, 8, 17)!important;
@@ -123,6 +135,7 @@ ul > li{
     box-shadow: 0 4px 0 0 #bbb!important; 
 }
 
+/* reveal answer button */
 .quiz-footer button{
     border: none;
     border-radius: 0.5rem;
@@ -140,19 +153,23 @@ ul > li{
     box-shadow: 0 4px 0 0 #bbb;
 }
 
+/* reveal answer hover effect */
 .quiz-footer button:hover{
     background-color: slategray;
     box-shadow: 0 4px 0 0 #bbb;
 }
+
+/* reveal answer interactiveness */
 .quiz-footer button:active{
     transform: scale(0.95);
 }
 
+/* hides play again button until called upon at end game */
 #play-again {
     display: none;
 }
 
-
+/* results given after each question, correct or incorrect */
 #result{
     padding: 0.7rem 0;
     text-align: center;
@@ -160,6 +177,7 @@ ul > li{
     font-size: 1rem;
 }
 
+/* image styling for correct or incorrect symbol */
 #result i{
     width: 40px;
     height: 40px;
@@ -171,21 +189,6 @@ ul > li{
     color: var(--tinted-gold);
 }
 
-@media(max-width: 678px){
-    .quiz-title{
-        font-size: 1.6rem;
-    }
-    .content{
-        margin: 3rem 0;
-        width: 90%;
-        padding: 1.5rem 1rem 3rem 1rem;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-    .quiz-footer button{
-        font-size: 1rem;
-    }
-}
 /* buttons */
 .card,
 .reset-btn{
@@ -200,6 +203,7 @@ ul > li{
     padding: 0.8em;
 }
 
+/*404 button*/
 .btn-404{
     font-size: 2rem;
     color: #fff;
@@ -210,6 +214,19 @@ ul > li{
     background-color: #d4af37;
 }
 
+/*404 back to main page button */
+.back-to-start img {
+    width: 35%;
+    padding: 1rem 0;
+}
+
+/*404 background image scaling*/
+.smite-bg-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* global heading styles */
 h1{
     font-size: 3em;
     font-weight: 300;
@@ -222,45 +239,59 @@ h2{
     color: var(--tinted-gold);
 }
 
-.smite-logo{
-    font-size: 2em;
-    margin-bottom: 1em;
-}
-
-p{
-    font-size: 1.6em;
-    color: var(--tinted-gold);
-    
-}
-
 h3{
     font-weight: 400;
     color: var(--tinted-gold);
 }
 
+/* logo img style */
+.smite-logo{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* crown rating image sizing */
+.fa-crown{
+    color: var(--tinted-gold);
+    font-size: 2em;
+}
+
+/* text style */
+p{
+    font-size: 1.6em;
+    color: var(--tinted-gold);
+    
+}
+/* Card game Styles*/
+/* Matching game score count */
 .score-count{
     font-size: 1.4em;
     padding: 1em 0 2em;
 }
 
+/* crown logo kept to one row */
 .rating > li{
     display: inline-block;
     padding: 0.5em;
 }
 
+/* turns text */
 .turns-count{
     padding: 0.5em;
     color: var(--tinted-gold);
 }
 
+/* turns number text */
 .turns-color{
     color: var(--tinted-gold);
 }
 
+/* reset button bg*/
 .reset-btn{
     background-color: var(--tinted-gold);
 }
 
+/* timer section, contains hourglass logo and overriden font style */
 .timer-container{
     background: #fff;
 	border-radius: 0.5em;
@@ -270,19 +301,9 @@ h3{
     font-family:'Times New Roman', Times, serif;
 }
 
+/* logo size */
 .timer{
     font-size: 2em;
-}
-
-
-.back-to-start img {
-    width: 35%;
-    padding: 1rem 0;
-}
-
-.smite-bg-img {
-    width: 100%;
-    height: 100%;
 }
 
 /* modal */
@@ -313,12 +334,14 @@ h3{
     margin-bottom: 10rem;
 }
 
+/* exit modal logo*/
 .close{
     align-self: flex-end;
     color: #fff;
     font-size: 5em;
 }
 
+/* exit modal hover effect*/
 .close:hover,
 .close:focus{
     color: var(--tinted-gold);
@@ -326,16 +349,19 @@ h3{
     cursor: pointer;
 }
 
+/* modal img scaling and positioning */
 .modal-img{
     display: inline-block;
     margin: 1em 0 1em;
     width: 20em;
 }
 
+/* the boldness of the loaded player stats */
 p.stats {
     font-weight: 600;
 }
 
+/* space between stat elements */
 p.stats:last-child {
     margin-bottom: 1em;
 }
@@ -345,6 +371,7 @@ p.stats:last-child {
     margin-bottom: 1em;
 }
 
+/* layout and design for the memory cards container */
 .cards{
     background: linear-gradient(to bottom, #d4af37, #fff);
     border-radius: 1.5em;
@@ -363,6 +390,7 @@ p.stats:last-child {
     box-shadow: 5px 2px 20px 0 rgba(6, 8, 17, 0.6);
 }
 
+/* individual card styling */
 .card {
     background: var(--tinted-gold);
     border-radius: 0.5em;
@@ -376,10 +404,12 @@ img {
     margin-top: 2em;
 }
 
+/* image to be hidden until user has inputted a response */
 .cards img{
     visibility: hidden;
 }
 
+/* flipping the card logic */
 .cards .card.flip{
     background: #000;
     cursor: default;
@@ -388,11 +418,13 @@ img {
     pointer-events: none;
 }
 
+/* setting the img to be visible and flashing white */
 .flip img{
     background: #000;
     visibility: visible;
 }
 
+/* matching card effect*/
 .cards .card.match{
     background: var(--tinted-gold);
     visibility: visible;
@@ -400,10 +432,12 @@ img {
     animation: pulse 1s;
 }
 
+/* setting background behind image if matched */
 .match img{
     background: var(--tinted-gold);
 }
 
+/* animation for flipping each card*/
 @keyframes pulse{
     0% {
         transform: scale(1);
@@ -416,6 +450,7 @@ img {
     }
 }
 
+/* FOOTER */
 .footer{
     background-color: #736a2b;
     color: #d4af37;
@@ -423,6 +458,7 @@ img {
     margin-top: 1em;
 }
 
+/* font size for text elements */
 .footer > p {
     font-size: 1em;
     padding: 1em;
@@ -432,13 +468,6 @@ img {
 .footer a:visited{
     color: #fff;
     text-decoration: underline;
-}
-
-#thank-you{
-    color: #fff;
-    font-size: 3rem;
-    font-weight: 200;
-    padding: 3rem 0;
 }
 
 .btn-success{
@@ -455,14 +484,34 @@ img {
     transform: scale(1.2);
     color: #fff;
 }
-
+/* scaling for form image */
 .smite-all{
     height: 90%;
     width: 90%;
 }
 
-/* media queries */
-/* mobile/tablet */
+
+/* Media Queries */
+/* Medium screen sizes*/
+/* all elements have been scaled in order to be responsive on medium screen sizes */
+@media(max-width: 678px){
+    .quiz-title{
+        font-size: 1.6rem;
+    }
+    .content{
+        margin: 3rem 0;
+        width: 90%;
+        padding: 1.5rem 1rem 3rem 1rem;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .quiz-footer button{
+        font-size: 1rem;
+    }
+}
+
+/* Small mobile/tablet screen sizes */
+/* all elements have been scaled in order to be responsive on mobile/tablet */
 @media screen and (max-width: 568px) {
     .header{
         font-size: 0.75em;
@@ -527,7 +576,8 @@ img {
     }
 }
 
-/* desktop */
+/* desktop screen sizes */
+/* all elements have been scaled in order to be responsive on desktop */
 @media screen and (min-width: 800px) {
     
     h1{
@@ -572,10 +622,7 @@ img {
     }
 }
 
-.fa-crown{
-    color: var(--tinted-gold);
-    font-size: 2em;
-}
+
 
 
 
