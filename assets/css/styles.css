@@ -436,7 +436,8 @@ img {
 }
 
 .smite-all{
-    font-size: 10rem;
+    height: 90%;
+    width: 90%;
 }
 
 /* media queries */
@@ -499,6 +500,9 @@ img {
     }
     p.stats{
         font-size: 1rem;
+    }
+    .smite-all{
+        height: inherit;
     }
 }
 
