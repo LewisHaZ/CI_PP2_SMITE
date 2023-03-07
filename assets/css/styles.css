@@ -200,6 +200,16 @@ ul > li{
     padding: 0.8em;
 }
 
+.btn-404{
+    font-size: 2rem;
+    color: #fff;
+    padding: 0.8em;
+}
+.btn-404:hover{
+    color:rgba(6, 8, 17, 0.6);
+    background-color: #d4af37;
+}
+
 h1{
     font-size: 3em;
     font-weight: 300;
