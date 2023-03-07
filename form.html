@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMITE - Contact Form</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/smite-favicon.ico">
+    <!-- CSS Styles file -->
     <link rel="stylesheet" href="assets/css/styles.css"/>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/smite-favicon.ico">
+    <!-- Email JS Javascript file -->
     <script src="assets/js/email.js"></script>
+    <!-- CDN from https://www.emailjs.com/ -->
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
@@ -16,40 +20,42 @@
       emailjs.init("GPc8_VJR-pWRi0sVt");
    })();
 </script>
-
-        
 </head>
 <body>
+    <!-- page header -->
     <header class="header">
+        <!-- sticky nav bar & nav elements -->
         <ul class="sticky">
             <li class="nav"><a href="index.html">MEMORY</a></li>
             <li class ="nav"><a href="quiz.html">QUIZ</a></li>
             <li class="nav"><a href="form.html">FORM</a></li>
         </ul>
     </header>
+    <!-- Container for page structure -->
     <div class="container">
     <h1>Have any feedback you'd like to give us? Fill out our form below!</h1>
-        
-            <h3>
+            <h2>
             <input type="email" id="email" placeholder="Enter your email" required/>
             <input type="text" id="fromName" placeholder="Enter your name" required />
             <input type="text" id="msg" placeholder="Enter your message"  required/>
             <button onclick='sendMail()'>SEND EMAIL</button>
-            </h3>
+            </h2>
             <div>
                 <h2>Also, thank you for playing the games!</h2>
                  <!--https://www.deviantart.com/getsukeii/art/SMITE-All-Gods-Wallpaper-with-Fafnir-613035902-->
                  <img class="smite-all" src="assets/images/smite-all-gods.jpg" alt="PICTURE OF ALL SMITE CHARACTERS">
             </div>
-        
     </div>
-    </form>
+    <!-- Footer section -->
     <footer class="footer">
         <div>
-        <h4>Copyright: All rights for the game's theme go to  <a href="https://www.hirezstudios.com/" target="_blank" 
-            aria-label ="click here to access hi rez studios website" alt="link to website of hirezstudios">Hi-Rez Studios</a> & credit to the Smite Wiki for images used.</h4>
+            <!-- Footer content -->
+        <h3>Copyright: All rights for the game's theme go to  <a href="https://www.hirezstudios.com/" target="_blank" 
+            aria-label ="click here to access hi rez studios website" alt="link to website of hirezstudios">Hi-Rez Studios</a>
+             & credit to the Smite Wiki for images used.</h3>
             <p>© Created by Lewis Hazelwood</p>
         </div>
+        <!-- Media links -->
         <div class="links">
             <a href="form.html" aria-label="Contact us here"><i class="fa-solid fa-envelope"></i></a>
             <a href="https://github.com/LewisHaZ/CI_PP2_SMITE" target="_blank" aria-label="The site's github repository"><i class="fa-brands fa-github"></i></a>
