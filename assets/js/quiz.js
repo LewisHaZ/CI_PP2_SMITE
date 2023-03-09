@@ -110,7 +110,7 @@ function checkCount(){
     } else {
         setTimeout(() => {
             loadQuestion();
-        }, 2000);
+        }, 5000);
     }
 }
 
