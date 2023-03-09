@@ -106,6 +106,16 @@ The goal of the project was to create a fun, recognisable and interactive set of
 
 ### Colour Scheme
 - To expand on the colour of the website, it has been kept consistent across all pages and is mainly inspired by the logo of the game itself. This being a black and yellow palette, black being used for the background elements whilst yellow is used for all the page elements such as boxes and text.
+- The idea behind the colour palette was to have the user be able to see all the relevant information on the screen easily whilst also potentially seeing that it matches the game's logo colour palette too.
 
-### Colour 
+### Fonts
+Google Fonts has been implemented on the website, Tilt Prism has been used for the main elements of the site with San Serif being used as the fallback font. The font Tilt Prism has been used to match my game's theme which is Mythology and Gods/Goddesses. Other fonts have been used such as Times New Roman to bring extra attention to the sections where it has been used, this font's name is also the name of a Pantheon so I found it fitting.
+
+### Structure
+- A game screen for each game, which can be accessed through the navbar. 
+- A page for feedback, can also be accessed with the navbar.
+- A modal for when the user completes the matching card game, this shows them their stats and results for the game and also an option to start the game again.
+- A screen popup for when the user gets a question correct or incorrect, immediate feedback for them to know the result and to start the next question after 5 seconds.
+- An end of game result for the quiz with an option with a button to restart the quiz and try again.
+- A 404 page which can only be accessed by incorrectly typing a non-existent website link into the address bar.
 
