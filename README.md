@@ -123,6 +123,13 @@ Google Fonts has been implemented on the website, Tilt Prism has been used for t
 <details><summary>Desktop size</summary>
 <img src="docs/wireframes/desktop-wireframe-smite.png">
 </details>
+<details><summary>Tablet Size</summary>
+<img src="docs/wireframes/tablet-wireframe-smite.png">
+</details>
+<details><summary>Mobile Size</summary>
+<img src="docs/wireframes/mobile-wireframe-smite.png">
+</details>
+
 ## Technologies Used
 
 ### Languages
