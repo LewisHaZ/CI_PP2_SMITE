@@ -333,6 +333,18 @@ The website has ...
 <img src="docs/features/features-404-button.png">
 </details>
 
+
+### Testing on different devices
+The website and all pages have been tested on many devices, including:
+- iPhone 10
+- Galaxy S22
+
+### Browsers
+The website has also been tested on various browsers, including:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+
 ## Deployment
 
 ### GitHub Pages
