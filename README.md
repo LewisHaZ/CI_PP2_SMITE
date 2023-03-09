@@ -97,4 +97,5 @@ The goal of the project was to create a fun, recognisable and interactive set of
 11. As a site owner, I want the user to be able to give me feedback on how they found the game.
 12. As a site owner, I want the user to be able to return the game if they hit a 404 page with a back to game button.
 13. As a site owner, I want the user to be able to access the game from anywhere/any device.
+14. As a site owner, I want the navigation of the webpages to be simple for the user.
 
