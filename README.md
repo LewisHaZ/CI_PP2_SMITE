@@ -113,9 +113,40 @@ Google Fonts has been implemented on the website, Tilt Prism has been used for t
 
 ### Structure
 - A game screen for each game, which can be accessed through the navbar. 
-- A page for feedback, can also be accessed with the navbar.
+- A page for feedback, which includes a inputs for their name/email/message for the developer. It can also be accessed with the navbar.
 - A modal for when the user completes the matching card game, this shows them their stats and results for the game and also an option to start the game again.
 - A screen popup for when the user gets a question correct or incorrect, immediate feedback for them to know the result and to start the next question after 5 seconds.
 - An end of game result for the quiz with an option with a button to restart the quiz and try again.
 - A 404 page which can only be accessed by incorrectly typing a non-existent website link into the address bar.
+
+### Wireframes
+<details><summary>Desktop size</summary>
+<img src="docs/wireframes/desktop-wireframe-smite.png">
+</details>
+## Technologies Used
+
+### Languages
+1. HTML
+2. CSS
+3. JavaScript
+
+### Frameworks & Tools
+- EmailJS
+- Git
+- GitHub
+- Gitpod
+- Paint
+- Balsamiq
+- Google Fonts
+- Font Awesome
+- Favicon
+- Firefox Dev Tools
+- W3C Validator
+- Jigsaw W3C Validator
+- JSHint
+- Wave Validator
+- Lighthouse
+
+## Features
+The website has ...
 
