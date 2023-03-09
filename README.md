@@ -45,3 +45,19 @@ The website has been created to work on any device: mobiles, tablets, desktops &
 8. [Deployment](#deployment)
 9. [Credits](#credits)
 10. [Thanks to](#thanks-to)
+
+## Project Goals
+
+The goal of the project was to create a fun, recognisable and interactive set of games that are easy to pick up and play whilst also introducing users to the game that is SMITE and also the theme of mythology.
+
+### User Goals
+
+- Play game(s) that have a simple rule-set and are easy to pick up yet hard to master
+- Give themselves a challenge by replaying the games to get the highest scores
+
+### Site Owner Goals
+
+- Create a game that is engaging enough to keep the player playing the games
+- Create a game that is good to look at design wise
+- Create a game that has simple and inituitive navigation
+- Create fully accessible and responsive pages 
