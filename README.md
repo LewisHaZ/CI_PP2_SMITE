@@ -60,4 +60,32 @@ The goal of the project was to create a fun, recognisable and interactive set of
 - Create a game that is engaging enough to keep the player playing the games
 - Create a game that is good to look at design wise
 - Create a game that has simple and inituitive navigation
-- Create fully accessible and responsive pages 
+- Create fully accessible and responsive pages
+
+## User Experience
+
+### Target Audience
+
+- Anyone who is interested in playing a game of memory with cards or a quiz game
+- Anyone with an interest in the game 'SMITE' OR an interest Mythology
+- Someone who is looking to pass time with a quick and thought provoking game(s)
+
+### User Requirements and Expectations
+
+- Easy and simple to understand game rules
+- A resposive website that can be played anywhere/anyhow
+- Gameplay features working as expected
+- Content is easily readable
+- Ease of navigation throughout the website and gameplay
+- A feedback form to give the developer feedback
+
+## User Stories
+
+### Site user
+1. As a site user, I want to play a game that is fun and makes me want to keep playing.
+2. As a site user, I want to play multiple games for a sense of variety.
+3. As a site user, I want to know when I have completed a game.
+4. As a site user, I want to be able to play the game on any device.
+5. As a site user, I want to know what score I got after finishing each game.
+6. As a site user, I want to see what the correct answert to question was if I got it wrong.
+7. As a site user, I want to leave feedback for the game's developer.
