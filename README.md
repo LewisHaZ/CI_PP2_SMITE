@@ -378,6 +378,20 @@ The website was deployed using GitHub Pages by following these steps:
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 7. Press Enter to create your local clone
 
+
+## Credits
+
+### Images
+- God card images were taken from [Smite wiki](pt-br.smite.wikia.com/)
+- Smite edition logo taken from [Smite Game](smitegame.com)
+- Smite favicon picture taken from [Malfacio](malfacio.deviantart.com)
+- Smite thank you image taken from [Getsukeii](getsukeii.deviantart.com)
+
+### Code
+- Modal for card game made with help from [W3Schools](https://www.w3schools.com/w3css/w3css_modal.asp)
+- EmailJS API used for form submission [EmailJS](https://www.emailjs.com/)
+- Open Trivia DB API for quiz questions [Open Trivia DB](https://opentdb.com/api_config.php)
+
 ## Acknowledgements
 Many thanks to all those around me for the support,  including:
 - Family, friends and my wonderful fiancee.
