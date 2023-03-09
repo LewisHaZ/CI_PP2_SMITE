@@ -337,6 +337,7 @@ The website has ...
 ### Testing on different devices
 The website and all pages have been tested on many devices, including:
 - iPhone 10
+- iPad
 - Galaxy S22
 
 ### Browsers
@@ -344,6 +345,15 @@ The website has also been tested on various browsers, including:
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Edge
+
+## Bugs
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Images not appearing on deployed sites | Link images correctly using full deployed website file paths |
+| Social link icons not appearing on form page | Put link to fontawesome script into form html page |
+| Modal image overflowing into the main page | Adjust the padding values within CSS |
+| No data being sent to email through emailJS API | Adjust the email template to have content to be sent |
+| Mobile responsiveness on card game play area not correct | Added a media query to reduce the size of the game area depending on the device screen size |
 
 ## Deployment
 
