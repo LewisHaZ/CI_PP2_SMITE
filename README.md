@@ -298,7 +298,40 @@ The website has ...
 <img src="docs/features/features-quiz-play-again.png">
 </details>
 
+### Form title
+- A title that is displayed at the top of the form page to ask the user if they have any feedback to give.
+<details><summary>See feature</summary>
+<img src="docs/features/features-form-title.png">
+</details>
 
+### Form to fill out
+- Section where the user can input their name, email and message/feedback to the developer about what they thought of the games. This email is then sent to my personal email through the emailJS API.
+- User stories covered: 7, 12
+<details><summary>See feature</summary>
+<img src="docs/features/features-form-inputs.png">
+</details>
+
+### Form - thank you message and image
+- A thank you message and image section to give feedback to the user of the appreciation for their playing of the game.
+<details><summary>See features</summary>
+<img src="docs/features/features-form-thank-you-image.png">
+<br>
+<img src="docs/features/features-form-thank-you-message.png">
+</details>
+
+### 404 page
+- A page that displays when the user puts an incorrect link into the address bar.
+- User stories covered: 13
+<details><summary>See features</summary>
+<img src="docs/features/features-404.png">
+</details>
+
+### 404 return to game button
+- A button that allows the user to return the card game page.
+- User stories covered: 15
+<details><summary>See features</summary>
+<img src="docs/features/features-404-button.png">
+</details>
 
 ## Deployment
 
