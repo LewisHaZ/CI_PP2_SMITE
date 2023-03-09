@@ -332,6 +332,22 @@ The website has 4 pages and 25 features.
 <img src="docs/features/features-404-button.png">
 </details>
 
+## Validation
+
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML code for the webiste. All pages have passed the checks and have no errors - this can be checked at any time.
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS code for the website.
+
+### Accessibility
+The WAVE WebAIM web accessibility evaluation tool was used to make sure the website ticked all accessiblity boxes.
+
+### Performance 
+Google Lighthouse within the Google Chrome Developer Tools was used to test the overall performance of the website.
+
+### JSHint
+JSHint was used to verify the validity of the JavaScript used in my website.
 
 ### Testing on different devices
 The website and all pages have been tested on many devices, including:
