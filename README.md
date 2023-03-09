@@ -81,7 +81,7 @@ The goal of the project was to create a fun, recognisable and interactive set of
 
 ## User Stories
 
-### Site user
+### Site User
 1. As a site user, I want to play a game that is fun and makes me want to keep playing.
 2. As a site user, I want to play multiple games for a sense of variety.
 3. As a site user, I want to know when I have completed a game.
@@ -89,3 +89,12 @@ The goal of the project was to create a fun, recognisable and interactive set of
 5. As a site user, I want to know what score I got after finishing each game.
 6. As a site user, I want to see what the correct answert to question was if I got it wrong.
 7. As a site user, I want to leave feedback for the game's developer.
+
+## Site Owner
+8. As a site owner, I want the user to understand how to play each game.
+9. As a site owner, I want the user to feel challenged but enjoy both games.
+10. As a site owner, I want my games to be fully reponsive.
+11. As a site owner, I want the user to be able to give me feedback on how they found the game.
+12. As a site owner, I want the user to be able to return the game if they hit a 404 page with a back to game button.
+13. As a site owner, I want the user to be able to access the game from anywhere/any device.
+
