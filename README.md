@@ -157,7 +157,7 @@ Google Fonts has been implemented on the website, Tilt Prism has been used for t
 - Lighthouse
 
 ## Features
-The website has ...
+The website has 4 pages and 25 features.
 
 ### Nav bar
 - A navbar that has simple shapes and displays text for each page the user can access.
@@ -247,7 +247,6 @@ The website has ...
 <details><summary>See feature</summary>
 <img src="docs/features/features-quiz-reveal.png">
 </details>
-
 
 ### Quiz answer reveal - correct
 - Reveals that the question was answered correctly to the user and displays a tick and some text to them with the interactive feedback.
@@ -346,6 +345,202 @@ The website has also been tested on various browsers, including:
 - Mozilla Firefox
 - Microsoft Edge
 
+### Testing User stories
+1. As a site user, I want to play a game that is fun and makes me want to keep playing.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Memory Card game | Start matching the pairs of cards | Gameplay starts | Works as expected |
+| Quiz game | View the question and start answering by clicking one of the options | Gameplay starts and shows answer | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-1-1.png">
+<img src="docs/user-story-testing/user-story-testing-1-2.png">
+<img src="docs/user-story-testing/user-story-testing-1-3.png">
+<img src="docs/user-story-testing/user-story-testing-1-4.png">
+</details>
+
+2. As a site user, I want to play multiple games for a sense of variety.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Memory Card game | Start matching the pairs of cards | Gameplay starts | Works as expected |
+| Quiz game | View the question and start answering by clicking one of the options | Gameplay starts and shows answer | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-1-1.png">
+<img src="docs/user-story-testing/user-story-testing-1-2.png">
+<img src="docs/user-story-testing/user-story-testing-1-3.png">
+<img src="docs/user-story-testing/user-story-testing-1-4.png">
+</details>
+
+3. As a site user, I want to know when I have completed a game.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Memory Card game modal | Finish matching all cards to be shown a popup with game complete on it | Modal pops up after all cards are paired showing stats and score | Works as expected |
+| Quiz game score result | View the question and start answering by clicking one of the options | Gameplay starts and shows answer | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-3-1.png">
+<img src="docs/user-story-testing/user-story-testing-3-2.png">
+</details>
+
+4. As a site user, I want to be able to play the game on any device.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Memory Card game any size | Memory card game can be played on any device | No errors or overflowing containers | Works as expected |
+| Quiz game any size | Quiz game any size | No errors or overflowing containers | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-4-1.png">
+<img src="docs/user-story-testing/user-story-testing-4-2.png">
+<img src="docs/user-story-testing/user-story-testing-4-3.png">
+<img src="docs/user-story-testing/user-story-testing-4-4.png">
+</details>
+
+5. As a site user, I want to know what score I have during and after finishing each game.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Memory Card game score | Memory card game displays the crown rating during gameplay | Icons can be seen and disappear if the user takes too many turns | Works as expected |
+| Quiz game score | Quiz game score counts up as user gets questions correct | Score counter is going up | Works as expected |
+| Memory Card game end game score | Memory card game displays a modal popup to show the overall score at the end | Score can be seen by player in terms of turns taken and overall rating | Works as expected |
+| Quiz game end game score | Quiz game score shows total score at the end of the quiz | Pops up below the final answered question | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-5-1.png">
+<img src="docs/user-story-testing/user-story-testing-5-2.png">
+<img src="docs/user-story-testing/user-story-testing-5-3.png">
+<img src="docs/user-story-testing/user-story-testing-5-4.png">
+</details>
+
+6. As a site user, I want to see what the correct answer to question was if I got it wrong.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Quiz game reveal answer | User answer a question using the options provided | Game logic tells them if they are correct and displays to the screen | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-6-1.png">
+</details>
+
+7. As a site user, I want to leave feedback for the game's developer.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Feedback form page | Navigate to form page and fill in form to submit | Submit has been hit and sends an email through emailJS to the developer | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-7-1.png">
+</details>
+
+8. As a site user, I want to know what game I am playing.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Memory card game title | Navigate to memory card game page | User can see the title at the top of the page | Works as expected |
+| Quiz game title | Navigate to quiz game page | User can see the title at the top of the page | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-8-1.png">
+<img src="docs/user-story-testing/user-story-testing-8-2.png">
+</details>
+
+9. As a site owner, I want the user to understand how to play each game without the need for instructions.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Memory card game score and time area | Navigate to memory card game page | User can see the game score and time area | Works as expected |
+| Quiz game title | Navigate to quiz game page | User can see the question area | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-9-1.png">
+<img src="docs/user-story-testing/user-story-testing-9-2.png">
+</details>
+
+10. As a site owner, I want the user to feel challenged but enjoy both games.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Memory card game scores | User gets a low score and tries to do better next time  | Plays again and improves their score | Works as expected |
+| Quiz game scores| User gets a question wrong and feels motivated to next one correct | User gets the next one correct and feels good | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-10-1.png">
+<img src="docs/user-story-testing/user-story-testing-10-2.png">
+<img src="docs/user-story-testing/user-story-testing-10-3.png">
+<img src="docs/user-story-testing/user-story-testing-10-4.png">
+</details>
+
+11. As a site owner, I want my games to be fully reponsive.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Memory card game buttons | User can start over at any time and also close the modal | Restarts when user clicks start over and modal closes correctly after onclick | Works as expected |
+| Quiz game highlight option | User click on an option | User can see which option they have chosen after clicking on it | Works as expected |
+
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-11-1.png">
+<img src="docs/user-story-testing/user-story-testing-11-2.png">
+<img src="docs/user-story-testing/user-story-testing-11-3.png">
+<img src="docs/user-story-testing/user-story-testing-11-4.png">
+</details>
+
+12. As a site owner, I want the user to be able to give me feedback on how they found the game.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Feedback form page | Navigate to form page and fill in form to submit | Submit has been hit and sends an email through emailJS to the developer | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-7-1.png">
+</details>
+
+13. As a site owner, I want the user to be able to return the game if they hit a 404 page with a back to game button.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| 404 Page back to home button | User somehow navigate to 404 error page with incorrect address, they can navigate back to home with a button at bottom the page | User returned to home page | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-13-1.png">
+<img src="docs/user-story-testing/user-story-testing-13-2.png">
+</details>
+
+14. As a site owner, I want the user to be able to access the game from anywhere/any device.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Any device resposniveness | User can use any device connected to the internet and access the site | Site can be accessed | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-14-1.png">
+</details>
+
+15. As a site owner, I want the navigation of the webpages to be simple for the user.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Nav bar | User can access any part of the site easily with the nav bar options | Each page can be accessed | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-15-1.png">
+<img src="docs/user-story-testing/user-story-testing-15-2.png">
+</details>
+
+16. As a site owner, I want the user to be able to access my social links to give further feedback or to connect.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer media links | User can access three different links at the bottom to media pages such as GitHub, Linkedin and Feedback form | Each page can be accessed | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-16-1.png">
+</details>
+
 ## Bugs
 | **Bug** | **Fix** |
 | ----------- | ----------- |
@@ -377,7 +572,6 @@ The website was deployed using GitHub Pages by following these steps:
 5. Change the current working directory to the one where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 7. Press Enter to create your local clone
-
 
 ## Credits
 
