@@ -159,6 +159,13 @@ Google Fonts has been implemented on the website, Tilt Prism has been used for t
 ## Features
 The website has ...
 
+### Nav bar
+- A navbar that has simple shapes and displays text for each page the user can access.
+- User stories covered: 15
+<details><summary>See feature</summary>
+<img src="docs/features/features-navbar.png">
+</details>
+
 ### Card game page Title
 - Title shown at the top of the page in a big and readble font.
 - User stories covered: 8, 9
@@ -206,6 +213,92 @@ The website has ...
 <details><summary>See feature</summary>
 <img src="docs/features/features-footer.png">
 </details>
+
+### Quiz title
+- A title that displays at the top of the page to let the user know what game they are playing.
+- User stories covered: 8, 9
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-title.png">
+</details>
+
+### Quiz question
+- A line of text that asks the user a question based on the category shown below (in my game's case it is only Mythology included to match the theme).
+- User stories covered: 1, 2, 8
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-question.png">
+</details>
+
+### Quiz category
+- A small box with text inside to indicate to the user what category the quiz is.
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-category.png">
+</details>
+
+### Quiz question options
+- The options to choose from for the answer, all shown in yellow rectangles to the user.
+- User stories covered: 1, 10
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-options.png">
+</details>
+
+### Quiz reveal button
+- The button for the user to lock in their answer and have immediate feedback as to whether or not they were correct.
+- User stories covered: 2, 6
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-reveal.png">
+</details>
+
+
+### Quiz answer reveal - correct
+- Reveals that the question was answered correctly to the user and displays a tick and some text to them with the interactive feedback.
+- User stories covered: 6
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-reveal-correct.png">
+</details>
+
+### Quiz answer reveal - incorrect
+- Reveals that the question was not answered correctly to the user and displays a cross and some text to them with the interactive feedback.
+- User stories covered: 6, 10
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-reveal-incorrect.png">
+</details>
+
+### Quiz answer reveal - show correct answer
+- Reveals the answer to the question if it was not answered correctly by the user.
+- User stories covered: 1
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-reveal-incorrect-show-correct.png">
+</details>
+
+## Quiz answer reveal - please select an option
+- A piece of feedback that lets the user know they have not selected an option and need to choose to progress.
+- User stories covered: 11
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-reveal-please-choose.png">
+</details>
+
+### Quiz overall score counter
+- A counter up to 10 that lets the user both know how many questions are remaining and what their score is so far.
+- User stories covered: 2, 10
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-score-counter.png">
+</details>
+
+### Quiz end of game score
+- A score which is displayed once the final question has been answered and the logic has calculated the score the user got.
+- User stories covered: 3, 5
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-score-result.png">
+</details>
+
+### Quiz - play again button
+- A button that is displayed below the score when the game has complete, the user can click this to restart the quiz.
+- User stories covered: 1, 11, 15
+<details><summary>See feature</summary>
+<img src="docs/features/features-quiz-play-again.png">
+</details>
+
+
 
 ## Deployment
 
