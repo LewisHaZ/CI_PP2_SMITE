@@ -86,18 +86,20 @@ The goal of the project was to create a fun, recognisable and interactive set of
 2. As a site user, I want to play multiple games for a sense of variety.
 3. As a site user, I want to know when I have completed a game.
 4. As a site user, I want to be able to play the game on any device.
-5. As a site user, I want to know what score I got after finishing each game.
-6. As a site user, I want to see what the correct answert to question was if I got it wrong.
+5. As a site user, I want to know what score I have during and after finishing each game.
+6. As a site user, I want to see what the correct answer to question was if I got it wrong.
 7. As a site user, I want to leave feedback for the game's developer.
+8. As a site user, I want to know what game I am playing.
 
 ## Site Owner
-8. As a site owner, I want the user to understand how to play each game.
-9. As a site owner, I want the user to feel challenged but enjoy both games.
-10. As a site owner, I want my games to be fully reponsive.
-11. As a site owner, I want the user to be able to give me feedback on how they found the game.
-12. As a site owner, I want the user to be able to return the game if they hit a 404 page with a back to game button.
-13. As a site owner, I want the user to be able to access the game from anywhere/any device.
-14. As a site owner, I want the navigation of the webpages to be simple for the user.
+9. As a site owner, I want the user to understand how to play each game without the need for instructions.
+10. As a site owner, I want the user to feel challenged but enjoy both games.
+11. As a site owner, I want my games to be fully reponsive.
+12. As a site owner, I want the user to be able to give me feedback on how they found the game.
+13. As a site owner, I want the user to be able to return the game if they hit a 404 page with a back to game button.
+14. As a site owner, I want the user to be able to access the game from anywhere/any device.
+15. As a site owner, I want the navigation of the webpages to be simple for the user.
+16. As a site owner, I want the user to be able to access my social links to give further feedback or to connect.
 
 ## Design
 
@@ -157,6 +159,54 @@ Google Fonts has been implemented on the website, Tilt Prism has been used for t
 ## Features
 The website has ...
 
+### Card game page Title
+- Title shown at the top of the page in a big and readble font.
+- User stories covered: 8, 9
+<details><summary>See feature</summary>
+<img src="docs/features/features-card-title.png">
+</details>
+
+### Card game page Logo
+- Logo to show the game that the card game is based upon.
+<details><summary>See feature</summary>
+<img src="docs/features/features-card-logo.png">
+</details>
+
+### Card game score/lives
+- An area to show how much score/lives the player has left during gameplay.
+- User stories covered: 5
+<details><summary>See feature</summary>
+<img src="docs/features/features-card-score.png">
+</details>
+
+### Card game turns
+- An area to show how many turns the player has used during gameplay.
+- User stories covered: 5, 9, 10
+<details><summary>See feature</summary>
+<img src="docs/features/features-card-turns.png">
+</details>
+
+### Card game timer
+- An area to show how much time has passed since the game began.
+- User stories covered: 10
+<details><summary>See feature</summary>
+<img src="docs/features/features-card-time.png">
+</details>
+
+### Card game - Play area
+- An area that is the game board filled with the 16 cards that the user must pair up to complete the game.
+- User stories covered: 1, 4, 6, 9, 10, 14
+<details><summary>See feature</summary>
+<img src="docs/features/features-card-game-area.png">
+</details>
+
+### Footer
+- A footer that displays credits within a link to the company's website who makes SMITE, developer name and also links to socials.
+- User stories covered: 16
+<details><summary>See feature</summary>
+<img src="docs/features/features-footer.png">
+</details>
+
 ## Deployment
 
 ### GitHub Pages
@@ -179,4 +229,10 @@ The website was deployed using GitHub Pages by following these steps:
 5. Change the current working directory to the one where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 7. Press Enter to create your local clone
+
+## Acknowledgements
+Many thanks to all those around me for the support,  including:
+- Family, friends and my wonderful fiancee.
+- Mo Shami my tutor for the guidance.
+
 
