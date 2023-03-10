@@ -54,7 +54,7 @@ body{
     font-size: 2em;
     display: inline-block;
     padding: 20px;
-    background-color: slategray;
+    background-color: #343842;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -294,7 +294,7 @@ p{
 
 /* reset button bg*/
 .reset-btn{
-    background-color: slategray;
+    background-color: #343842;
 }
 
 /* timer section, contains hourglass logo and overriden font style */
