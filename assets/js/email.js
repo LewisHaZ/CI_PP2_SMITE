@@ -15,6 +15,6 @@ emailjs
     .then(function(res){
         console.log("success", res.status);
         //prints to console if it worked
-    })
+    });
 }
 

@@ -342,6 +342,7 @@ The W3C Markup Validation Service was used to validate the HTML code for the web
 - 404.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flewishaz.github.io%2FCI_PP2_SMITE%2F404.html) - No Errors Found.
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS code for the website.
+- site [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flewishaz.github.io%2FCI_PP2_SMITE%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - No Errors Found.
 
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to make sure the website ticked all accessiblity boxes.
@@ -362,7 +363,17 @@ Google Lighthouse within the Google Chrome Developer Tools was used to test the 
 </details>
 
 ### JSHint
-JSHint was used to verify the validity of the JavaScript used in my website.
+JSHint was used to verify the validity of the JavaScript used in my website. There were no significants errors found.
+<details><summary> cardgame.js </summary>
+<img src="docs/validation-js-hint/validation-for-js-hint-card-game-js.png">
+</details>
+<details><summary> quiz.js </summary>
+<img src="docs/validation-js-hint/validation-for-js-hint-quiz-game-js.png">
+</details>
+<details><summary> email.js </summary>
+<img src="docs/validation-js-hint/validation-for-js-hint-email-js.png">
+</details>
+
 
 ### Testing on different devices
 The website and all pages have been tested on many devices, including:
