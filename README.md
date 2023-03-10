@@ -345,6 +345,18 @@ The WAVE WebAIM web accessibility evaluation tool was used to make sure the webs
 
 ### Performance 
 Google Lighthouse within the Google Chrome Developer Tools was used to test the overall performance of the website.
+<details><summary> Memory Card Game </summary>
+<img src="docs/lighthouse-validation/validation-for-lighthouse-index-html.png">
+</details>
+<details><summary> Quiz Game </summary>
+<img src="docs/lighthouse-validation/validation-for-lighthouse-quiz-html.png">
+</details>
+<details><summary> Contact Form </summary>
+<img src="docs/lighthouse-validation/validation-for-lighthouse-form-html.png">
+</details>
+<details><summary> 404 error page </summary>
+<img src="docs/lighthouse-validation/validation-for-lighthouse-404-html.png">
+</details>
 
 ### JSHint
 JSHint was used to verify the validity of the JavaScript used in my website.
