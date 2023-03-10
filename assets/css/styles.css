@@ -470,6 +470,12 @@ img {
     padding: 1em;
 }
 
+.nav a:link,
+.nav a:visited{
+    color: #fff;
+    text-decoration: underline;
+}
+
 .footer a:link,
 .footer a:visited{
     color: #fff;
