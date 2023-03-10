@@ -471,7 +471,7 @@ img {
 
 .btn-success{
     width: 40%;
-    padding: 2rem 2 0;
+    padding: 2rem 0;
     background-color: var(--tinted-gold);
     font-weight: 1000;
     font-family: 'Tilt Prism', Times, serif;
