@@ -346,6 +346,10 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS code for the 
 
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to make sure the website ticked all accessiblity boxes.
+- index.html [results](https://wave.webaim.org/report#/https://lewishaz.github.io/CI_PP2_SMITE/index.html) - Alerts were found but this is due to the hidden elements of the card game. No issues.
+- quiz.html [results](https://wave.webaim.org/report#/https://lewishaz.github.io/CI_PP2_SMITE/quiz.html) - No issues.
+- form.html [results](https://wave.webaim.org/report#/https://lewishaz.github.io/CI_PP2_SMITE/form.html) - No issues.
+- 404.html [results](https://wave.webaim.org/report#/https://lewishaz.github.io/CI_PP2_SMITE/404.html) - No issues.
 
 ### Performance 
 Google Lighthouse within the Google Chrome Developer Tools was used to test the overall performance of the website.
