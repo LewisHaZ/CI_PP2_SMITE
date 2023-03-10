@@ -105,7 +105,7 @@ ul > li{
 .quiz-questions li{
     border-radius: 0.5rem;
     font-weight: 600;
-    padding: 0.2rem, 0.4rem;
+    padding: 0.2rem 0.4rem;
     margin: 0.7rem 0;
     cursor: pointer;
     border: 3px solid var(--tinted-gold);
@@ -118,7 +118,7 @@ ul > li{
 .quiz-questions li:hover{
     background-color: #444531;
     color:rgb(6, 8, 17);
-    border-color: #444531;
+    border-color: var(--tinted-gold);
     box-shadow: 0 4px 0 0 #bbb;
 }
 
@@ -131,7 +131,7 @@ ul > li{
 .selected{
     background-color: #444531!important;
     color: rgb(6, 8, 17)!important;
-    border-color: #444531!important;
+    border-color: var(--tinted-gold)!important;
     box-shadow: 0 4px 0 0 #bbb!important; 
 }
 
@@ -471,9 +471,9 @@ img {
 
 .btn-success{
     width: 40%;
-    padding: 2rem 2;
+    padding: 2rem 2 0;
     background-color: var(--tinted-gold);
-    font-weight: 1500;
+    font-weight: 1000;
     font-family: 'Tilt Prism', Times, serif;
     font-size: 3rem;
 }
