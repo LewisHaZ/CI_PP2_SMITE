@@ -136,6 +136,13 @@ ul > li{
     box-shadow: 0 4px 0 0 #bbb!important; 
 }
 
+.form-style{
+    background-color: slategray;
+    font-size: 3em;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* reveal answer button */
 .quiz-footer button{
     border: none;
