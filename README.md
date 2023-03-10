@@ -107,7 +107,7 @@ The goal of the project was to create a fun, recognisable and interactive set of
 - The design choice for the website is based on the game 'SMITE', with the colour and visual elements for the site being similar to that of what can be seen the actual video game itself.
 
 ### Colour Scheme
-- To expand on the colour of the website, it has been kept consistent across all pages and is mainly inspired by the logo of the game itself. This being a black and yellow palette, black being used for the background elements whilst yellow is used for all the page elements such as boxes and text.
+- To expand on the colour of the website, it has been kept consistent across all pages and is mainly inspired by the logo of the game itself. This being a black, slate grey and yellow palette, black being used for the background elements whilst the slate grey and yellow are used for all the page elements such as boxes and text.
 - The idea behind the colour palette was to have the user be able to see all the relevant information on the screen easily whilst also potentially seeing that it matches the game's logo colour palette too.
 
 ### Fonts
