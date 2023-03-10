@@ -336,7 +336,9 @@ The website has 4 pages and 25 features.
 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML code for the webiste. All pages have passed the checks and have no errors - this can be checked at any time.
-
+- index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flewishaz.github.io%2FCI_PP2_SMITE%2Findex.html) - No Errors Found.
+- quiz.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flewishaz.github.io%2FCI_PP2_SMITE%2Fquiz.html) - No Errors Found.
+- form.html [results]()
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS code for the website.
 
@@ -612,6 +614,7 @@ The website was deployed using GitHub Pages by following these steps:
 ### Code
 - Modal for card game made with help from [W3Schools](https://www.w3schools.com/w3css/w3css_modal.asp)
 - EmailJS API used for form submission [EmailJS](https://www.emailjs.com/)
+- Code with Voran for help setting up emailJS [Code with Voran](https://www.youtube.com/watch?v=x7Ewtay0Q78)
 - Open Trivia DB API for quiz questions [Open Trivia DB](https://opentdb.com/api_config.php)
 
 ## Acknowledgements
