@@ -6,6 +6,9 @@ function sendMail(params){
         email: document.getElementById("email").value,
         message: document.getElementById("msg").value,
     };
+    (function(){
+        emailjs.init("GPc8_VJR-pWRi0sVt");
+     })();
 // Sends email to service the selected (gmail) and my personal email account for review of feedback
 emailjs
     .send('service_cqu9ojp', 'template_5hokv65',tempParams)
