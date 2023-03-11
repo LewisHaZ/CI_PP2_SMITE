@@ -10,8 +10,10 @@ const _checkBtn = document.getElementById('check-answer');
 const _playAgainBtn = document.getElementById('play-again');
 const _result = document.getElementById('result');
 
-let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 5;
-
+let correctAnswer = "";
+let totalQuestion = 5;
+let correctScore = 0;
+let askedCount = 0;
 //event listeners
 function eventListeners(){
     _checkBtn.addEventListener('click', checkAnswer);
@@ -110,7 +112,7 @@ function checkCount(){
     } else {
         setTimeout(() => {
             loadQuestion();
-        }, 3500);
+        }, 2500);
     }
 }
 
