@@ -19,6 +19,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
+    <!-- Container for page structure -->
+    <div class="container">
     <!-- page header -->
     <header class="header">
         <!-- sticky nav bar & nav elements -->
@@ -28,8 +30,7 @@
             <li class="nav"><a href="form.html">CONTACT</a></li>
         </ul>
     </header>
-    <!-- Container for page structure -->
-    <div class="container">
+    
     <h1>Have any feedback you'd like to give us? Fill out our form below!</h1>
             <form class="form-style">
             <label for="email">Email: </label>
@@ -40,7 +41,7 @@
             <input type="text" id="msg" placeholder="Enter your message"  required>
             <button onclick='sendMail()'>SEND EMAIL</button>
             </form>
-            <div>
+            <div id="margin-pic">
                 <h2>Also, thank you for playing the games!</h2>
                  <!--https://www.deviantart.com/getsukeii/art/SMITE-All-Gods-Wallpaper-with-Fafnir-613035902-->
                  <img class="smite-all" src="assets/images/smite-all-gods.jpg" alt="PICTURE OF ALL SMITE CHARACTERS">
