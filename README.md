@@ -631,6 +631,7 @@ The website was deployed using GitHub Pages by following these steps:
 ### Code
 - Modal for card game made with help from [W3Schools](https://www.w3schools.com/w3css/w3css_modal.asp)
 - EmailJS API used for form submission [EmailJS](https://www.emailjs.com/)
+- Code from CI student Aleksandra and her wonderful project [Aleksandracodes](https://github.com/aleksandracodes/CI_PP2_SunshineGuessing)
 - Code with Voran for help setting up emailJS [Code with Voran](https://www.youtube.com/watch?v=x7Ewtay0Q78)
 - Open Trivia DB API for quiz questions [Open Trivia DB](https://opentdb.com/api_config.php)
 
