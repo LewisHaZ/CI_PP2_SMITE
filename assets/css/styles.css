@@ -221,11 +221,14 @@ ul > li{
     font-size: 2rem;
     color: #fff;
     padding: 0.8em;
-    margin-top: 2rem;
 }
 .btn-404:hover{
     font-size: 1.9rem;
     color:#343842;
+}
+
+.above-footer{
+    margin-bottom: 15rem;
 }
 
 /*404 back to main page button */
