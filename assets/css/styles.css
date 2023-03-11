@@ -221,17 +221,17 @@ ul > li{
     font-size: 2rem;
     color: #fff;
     padding: 0.8em;
+    margin-top: 2rem;
 }
 .btn-404:hover{
-    color:rgba(6, 8, 17, 0.6);
-    background-color: #d4af37;
+    font-size: 1.9rem;
+    color:#343842;
 }
 
 /*404 back to main page button */
 .back-to-start img {
-    width: 15%;
+    width: 5%;
     padding: 1rem 0;
-    
 }
 
 /*404 background image scaling*/
