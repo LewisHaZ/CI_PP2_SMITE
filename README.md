@@ -374,6 +374,7 @@ JSHint was used to verify the validity of the JavaScript used in my website. The
 <details><summary> quiz.js </summary>
 <img src="docs/validation-js-hint/validation-for-js-hint-quiz-game-js.png">
 </details>
+ Due to the contact feedback form being sent by an external library I was unable to fix the unused/undefined variables
 <details><summary> email.js </summary>
 <img src="docs/validation-js-hint/validation-for-js-hint-email-js.png">
 </details>
