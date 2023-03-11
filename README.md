@@ -269,7 +269,7 @@ The website has 4 pages and 25 features.
 <img src="docs/features/features-quiz-reveal-incorrect-show-correct.png">
 </details>
 
-## Quiz answer reveal - please select an option
+### Quiz answer reveal - please select an option
 - A piece of feedback that lets the user know they have not selected an option and need to choose to progress.
 - User stories covered: 11
 <details><summary>See feature</summary>
@@ -310,11 +310,13 @@ The website has 4 pages and 25 features.
 <img src="docs/features/features-form-inputs.png">
 </details>
 
-### Form - thank you message and image
-- A thank you message and image section to give feedback to the user of the appreciation for their playing of the game.
+### Form - form submitted thank you image
+- An image that pops up when the user has posted their feedback.
 <details><summary>See features</summary>
 <img src="docs/features/features-form-thank-you-image.png">
-<br>
+
+### Form - thank you message
+- A thank you message to the user for playing the games.
 <img src="docs/features/features-form-thank-you-message.png">
 </details>
 

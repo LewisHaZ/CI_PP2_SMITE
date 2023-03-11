@@ -381,6 +381,7 @@ p{
 /* the boldness of the loaded player stats */
 p.stats {
     font-weight: 600;
+    color: #fff;
 }
 
 /* space between stat elements */
