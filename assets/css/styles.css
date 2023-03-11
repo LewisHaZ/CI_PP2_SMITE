@@ -521,26 +521,6 @@ img {
     width: 90%;
 }
 
-
-/* Media Queries */
-/* Medium screen sizes*/
-/* all elements have been scaled in order to be responsive on medium screen sizes */
-@media(max-width: 678px){
-    .quiz-title{
-        font-size: 1.6rem;
-    }
-    .content{
-        margin: 3rem 0;
-        width: 90%;
-        padding: 1.5rem 1rem 3rem 1rem;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-    .quiz-footer button{
-        font-size: 1rem;
-    }
-}
-
 /* Small mobile/tablet screen sizes */
 /* all elements have been scaled in order to be responsive on mobile/tablet */
 @media screen and (max-width: 568px) {
@@ -618,7 +598,7 @@ img {
 
 /* desktop screen sizes */
 /* all elements have been scaled in order to be responsive on desktop */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     
     h1{
         font-size: 6em;
