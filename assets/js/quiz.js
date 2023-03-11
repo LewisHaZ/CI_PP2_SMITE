@@ -33,7 +33,6 @@ async function loadQuestion(){
     const APIUrl = 'https://opentdb.com/api.php?amount=10&category=20';
     const result = await fetch(`${APIUrl}`);
     const data = await result.json();
-    //console.log(data.results[0]);
     _result.innerHTML = "";
     showQuestion(data.results[0]);
 }
@@ -68,7 +67,6 @@ function selectOption(){
             option.classList.add('selected');
         });
     });
-    console.log(correctAnswer);
 }
 
 // Check answer function

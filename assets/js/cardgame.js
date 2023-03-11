@@ -213,7 +213,6 @@ function winGame(){
 // Checks for cards turned and starts timer
 cards.addEventListener("click", function(evt){
     if(evt.target.nodeName === "LI"){
-        console.log(evt.target.nodeName + 'was clicked');
 
         if(timeStart === false){
             timeStart = true;
