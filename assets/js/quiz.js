@@ -9,11 +9,11 @@ const _totalQuestion = document.getElementById('total-question');
 const _checkBtn = document.getElementById('check-answer');
 const _playAgainBtn = document.getElementById('play-again');
 const _result = document.getElementById('result');
-
 let correctAnswer = "";
 let totalQuestion = 5;
 let correctScore = 0;
 let askedCount = 0;
+
 //event listeners
 function eventListeners(){
     _checkBtn.addEventListener('click', checkAnswer);
