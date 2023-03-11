@@ -482,6 +482,10 @@ img {
     padding: 1em;
 }
 
+.links{
+    font-size: 2em;
+}
+
 .nav a:link,
 .nav a:visited{
     color: #fff;
