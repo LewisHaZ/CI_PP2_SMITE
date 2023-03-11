@@ -10,7 +10,7 @@ const _checkBtn = document.getElementById('check-answer');
 const _playAgainBtn = document.getElementById('play-again');
 const _result = document.getElementById('result');
 
-let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 10;
+let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 5;
 
 //event listeners
 function eventListeners(){
@@ -76,14 +76,14 @@ function checkAnswer(){
         let selectedAnswer = _options.querySelector('.selected span').textContent;
         if(selectedAnswer.trim() == HTMLDecode(correctAnswer)){
             correctScore++;
-            _result.innerHTML = `<p> <i class = "fas fa-check"></i>Correct Answer! </p>`;
+            _result.innerHTML = `<p class= "result"> <i class = "fas fa-check"></i>Correct Answer! </p>`;
         } else {
-            _result.innerHTML = `<p> <i class = "fas fa-times"></i>Incorrect Answer! </p>
-             <p> <small><b>Correct Answer: </b> ${correctAnswer}</small></p>`;
+            _result.innerHTML = `<p class= "result"> <i class = "fas fa-times"></i>Incorrect Answer! </p>
+             <p class ="result"> <small><b>Correct Answer: </b> ${correctAnswer}</small></p>`;
         }
         checkCount();
     } else {
-        _result.innerHTML = `<p><i class = "fas fa-question"></i> Please
+        _result.innerHTML = `<p class="result"><i class = "fas fa-question"></i> Please
         select an option!</p>`;
         _checkBtn.disabled = false;
     }
@@ -103,7 +103,7 @@ function checkCount(){
     if(askedCount == totalQuestion){
         // display the score
         _result.innerHTML += `
-        <p> Your score is ${correctScore}. </p>`;
+        <p class ="result"> Your score is ${correctScore}. </p>`;
         _playAgainBtn.style.display = "block";
         _checkBtn.style.display = "none";
     // if not load next question

@@ -177,12 +177,17 @@ ul > li{
     display: none;
 }
 
+.result{
+    color: #fff;
+}
+
 /* results given after each question, correct or incorrect */
 #result{
     padding: 0.7rem 0;
     text-align: center;
     font-weight: 600;
     font-size: 1rem;
+    color: #fff;
 }
 
 /* image styling for correct or incorrect symbol */
